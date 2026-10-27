@@ -1,3 +1,17 @@
+# inference-gateway
+
+A small admission-control gateway for any OpenAI-compatible LLM server (vLLM, llama.cpp server, etc.). It keeps the backend responsive under load: it caps concurrent requests, queues a bounded number, enforces deadlines, and rejects the overflow fast with `429`.
+
+## Features
+- Active-request limit plus a bounded waiting queue
+- Queue deadline and upstream timeout (`429` / `504` / `502` responses)
+- `/health` and `/metrics` endpoints
+- Per-request JSONL log (outcome, queue wait, service time) for benchmarking
+
+## Config (env vars)
+`UPSTREAM_URL` (default `http://localhost:8000`), `MAX_ACTIVE` (1), `MAX_QUEUE` (4), `QUEUE_DEADLINE` (5s), `UPSTREAM_TIMEOUT` (30s)
+
+## Run
 # install required packages
 pip install -r requirements.txt
 
@@ -9,4 +23,6 @@ uvicorn gateway:app --port 9000
 
 # terminal 3: the test
 python load_test.py 10
-# inference-gateway
+
+## Current limits (v0.1)
+Non-streaming only, FIFO scheduling, single worker process, no retries. Tested on a 4 GB laptop GPU, so results show behavior, not production capacity.
