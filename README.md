@@ -9,3 +9,4 @@ uvicorn gateway:app --port 9000
 
 # terminal 3: the test
 python load_test.py 10
+# inference-gateway
