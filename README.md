@@ -25,4 +25,4 @@ uvicorn gateway:app --port 9000
 python load_test.py 10
 
 ## Current limits (v0.1)
-Non-streaming only, FIFO scheduling, single worker process, no retries. Tested on a 4 GB laptop GPU, so results show behavior, not production capacity.
+Non-streaming only, FIFO scheduling, single worker process, no retries. Tested on a 4 GB laptop GPU on a small model with non-production workload.
