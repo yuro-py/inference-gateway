@@ -12,16 +12,16 @@ A small admission-control gateway for any OpenAI-compatible LLM server (vLLM, ll
 `UPSTREAM_URL` (default `http://localhost:8000`), `MAX_ACTIVE` (1), `MAX_QUEUE` (4), `QUEUE_DEADLINE` (5s), `UPSTREAM_TIMEOUT` (30s)
 
 ## Run
-# install required packages
+### install required packages
 pip install -r requirements.txt
 
-# terminal 1: vLLM from your baseline at port 8000
+### terminal 1: vLLM from your baseline at port 8000
 vllm serve Qwen/Qwen2.5-0.5B-Instruct --gpu-memory-utilization 0.65 --max-model-len 1024 --max-num-seqs 1
 
-# terminal 2: the gateway at port 9000
+### terminal 2: the gateway at port 9000
 uvicorn gateway:app --port 9000
 
-# terminal 3: the test
+### terminal 3: the test
 python load_test.py 10
 
 ## Current limits (v0.1)
