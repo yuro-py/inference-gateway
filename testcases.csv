@@ -1,0 +1,20 @@
+Section,Test_ID,Description,Status_Code_or_Mode,accept_rate,reject_rate,deadline_success_of_all,deadline_success_of_accepted,p50_ms,p95_ms,System_Metrics_or_Notes
+Baseline,B0,gateway health + cold metrics,200 OK,,,,,,,,mode:baseline|ema_service_ms:null|received:0
+Baseline,B1,idle sanity,200 OK,1.0,0.0,1.0,1.0,1948,4682,rate:1.0|deadline:5000|n:20
+Baseline,B2,overload tight deadline,200 OK,0.225,0.775,0.025,0.111,3355,5792,rate:4.0|deadline:1500|n:40
+Baseline,B3,heavier overload,200 OK,0.275,0.725,0.05,0.182,3742,4475,rate:6.0|deadline:1500|n:40
+Contract,A1,SLA cold start metrics,200 OK,,,,,,,,mode:sla|ema_service_ms:null|received:0
+Contract,A2,negative deadline,400 Bad Request,,,,,,,,
+Contract,A3,no header,200 OK,,,,,,,,
+Contract,A4,stream true,400 Bad Request,,,,,,,,
+Contract,A5,malformed JSON,400 Bad Request,,,,,,,,
+Contract,A6,metrics after contract tests,200 OK,,,,,,,,received:4|completed:1|ema_service_ms:325|deadline_met:1
+SLA_Bench,C1,idle sanity,200 OK,1.0,0.0,1.0,1.0,244,599,rate:1.0|deadline:5000|n:20
+SLA_Bench,C2,head-to-head overload,200 OK,0.85,0.15,0.85,1.0,794,1191,rate:4.0|deadline:1500|n:40
+SLA_Bench,C3,heavier overload,200 OK,0.625,0.375,0.625,1.0,1073,1227,rate:6.0|deadline:1500|n:40
+SLA_Sweep,Sweep_800,tight deadline,200 OK,0.75,0.25,0.75,1.0,449,684,rate:4.0|deadline:800|n:40
+SLA_Sweep,Sweep_3000,loose deadline,200 OK,0.875,0.125,0.875,1.0,656,1158,rate:4.0|deadline:3000|n:40
+SLA_Sweep,Sweep_5000,very loose deadline,200 OK,0.875,0.125,0.875,1.0,656,1159,rate:4.0|deadline:5000|n:40
+Safety,Safety_1.2,safety knob enabled,200 OK,0.875,0.125,0.875,1.0,658,1190,rate:4.0|deadline:1500|n:40
+Final,FINAL_METRICS,system totals,200 OK,,,,,,,,received:41|completed:36|rejected_queue_full:5|deadline_met:36|deadline_missed:0|ema_service_ms:244
+Final,JSONL_STATS,outcome breakdown,200 OK,,,,,,,,baseline_ok:43|baseline_queue_deadline:3|baseline_queue_full:57|sla_ok:222|sla_queue_full:36|sla_unmeetable:10|total_lines:371

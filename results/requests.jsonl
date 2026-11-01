@@ -1,530 +1,371 @@
-{"ts": 1793104496.484568, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793104496.4848785, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793104496.4850717, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793104496.4852931, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793104496.4854815, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793104496.8314896, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.3538, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793104497.0665238, "outcome": "ok", "status": 200, "queue_wait_s": 0.3474, "service_s": 0.2348, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793104497.4278002, "outcome": "ok", "status": 200, "queue_wait_s": 0.5823, "service_s": 0.361, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793104497.6826363, "outcome": "ok", "status": 200, "queue_wait_s": 0.9435, "service_s": 0.2546, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793104498.0441906, "outcome": "ok", "status": 200, "queue_wait_s": 1.1983, "service_s": 0.3613, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793105793.1304672, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.3555, "waiting_at_exit": 9, "active_at_exit": 1}
-{"ts": 1793105793.3603754, "outcome": "ok", "status": 200, "queue_wait_s": 0.3495, "service_s": 0.2296, "waiting_at_exit": 8, "active_at_exit": 1}
-{"ts": 1793105793.7119987, "outcome": "ok", "status": 200, "queue_wait_s": 0.5793, "service_s": 0.3514, "waiting_at_exit": 7, "active_at_exit": 1}
-{"ts": 1793105793.9618914, "outcome": "ok", "status": 200, "queue_wait_s": 0.931, "service_s": 0.2494, "waiting_at_exit": 6, "active_at_exit": 1}
-{"ts": 1793105794.3131065, "outcome": "ok", "status": 200, "queue_wait_s": 1.1808, "service_s": 0.3509, "waiting_at_exit": 5, "active_at_exit": 1}
-{"ts": 1793105794.5626125, "outcome": "ok", "status": 200, "queue_wait_s": 1.5318, "service_s": 0.2493, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105794.7398329, "outcome": "ok", "status": 200, "queue_wait_s": 1.7812, "service_s": 0.1769, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793105794.9577374, "outcome": "ok", "status": 200, "queue_wait_s": 1.9583, "service_s": 0.2176, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793105795.1350784, "outcome": "ok", "status": 200, "queue_wait_s": 2.1762, "service_s": 0.1771, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793105795.2816713, "outcome": "ok", "status": 200, "queue_wait_s": 2.3535, "service_s": 0.1463, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793105837.1830835, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105837.1833873, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105837.1835697, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105837.183718, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105837.1838498, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105837.462453, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.2866, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105837.6084762, "outcome": "ok", "status": 200, "queue_wait_s": 0.2802, "service_s": 0.1457, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793105837.8779783, "outcome": "ok", "status": 200, "queue_wait_s": 0.426, "service_s": 0.2693, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793105838.055339, "outcome": "ok", "status": 200, "queue_wait_s": 0.6954, "service_s": 0.1771, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793105838.1920564, "outcome": "ok", "status": 200, "queue_wait_s": 0.8729, "service_s": 0.1364, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793105848.911296, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105848.911566, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0005, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105848.9118772, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105848.9120865, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105848.9122243, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105849.1501117, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.2397, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105849.4605217, "outcome": "ok", "status": 200, "queue_wait_s": 0.2401, "service_s": 0.3101, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793105849.6378977, "outcome": "ok", "status": 200, "queue_wait_s": 0.5496, "service_s": 0.1771, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793105849.9179602, "outcome": "ok", "status": 200, "queue_wait_s": 0.7269, "service_s": 0.2799, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793105850.0949886, "outcome": "ok", "status": 200, "queue_wait_s": 1.0073, "service_s": 0.1767, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793105853.4389307, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105853.4394186, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105853.4396205, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105853.439775, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105853.4399214, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105853.6128669, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.1743, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793105853.7902997, "outcome": "ok", "status": 200, "queue_wait_s": 0.1748, "service_s": 0.1772, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793105853.9671812, "outcome": "ok", "status": 200, "queue_wait_s": 0.3521, "service_s": 0.1766, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793105854.1137116, "outcome": "ok", "status": 200, "queue_wait_s": 0.5289, "service_s": 0.1463, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793105854.4655588, "outcome": "ok", "status": 200, "queue_wait_s": 0.6754, "service_s": 0.3516, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8453076, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.845697, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8458958, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8462708, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8464882, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8466437, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.846789, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8469255, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8470674, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793110989.8476038, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0001, "service_s": 0.0088, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.8274605, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.827762, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.82794, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.8281586, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.828304, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.8284545, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.8287902, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.828982, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.82913, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793111969.8298283, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0002, "service_s": 0.0089, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8310935, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8313959, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8316176, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8317823, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8319376, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8322613, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8324387, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.8325696, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112021.832693, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112022.1734364, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.3489, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7937706, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7940881, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7942722, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.794545, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7948434, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7951002, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7955346, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7957304, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112124.7959273, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112125.0341575, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.2475, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.277791, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0006, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.278004, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0008, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.2781343, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0009, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.2782345, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0008, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.2783325, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0009, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.278514, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.278622, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0015, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.2788668, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.279014, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112249.2800632, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0003, "service_s": 0.0025, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112476.7686853, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112476.7691143, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112476.7693057, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112476.7694638, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112476.7696266, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112477.0888734, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.3272, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112477.3182175, "outcome": "ok", "status": 200, "queue_wait_s": 0.3211, "service_s": 0.2291, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793112477.6697896, "outcome": "ok", "status": 200, "queue_wait_s": 0.5503, "service_s": 0.3513, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793112477.9187353, "outcome": "ok", "status": 200, "queue_wait_s": 0.9018, "service_s": 0.2487, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793112478.2759435, "outcome": "ok", "status": 200, "queue_wait_s": 1.1505, "service_s": 0.3569, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793112545.0238905, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112545.0244756, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112545.0247753, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112545.0250022, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112545.0252204, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112545.0256848, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0002, "service_s": 0.0084, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793112545.027425, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0022, "service_s": 0.0015, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793112545.0291362, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0042, "service_s": 0.0012, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793112545.0305226, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0056, "service_s": 0.0012, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793112545.0319583, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.007, "service_s": 0.0011, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115098.299108, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115098.2993975, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115098.2995827, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115098.2997444, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115102.4091575, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 4.1172, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115102.477244, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 4.1788, "waiting_at_exit": 3, "active_at_exit": 2}
-{"ts": 1793115102.7530937, "outcome": "ok", "status": 200, "queue_wait_s": 4.1788, "service_s": 0.2755, "waiting_at_exit": 2, "active_at_exit": 2}
-{"ts": 1793115102.7934456, "outcome": "ok", "status": 200, "queue_wait_s": 4.1108, "service_s": 0.384, "waiting_at_exit": 1, "active_at_exit": 2}
-{"ts": 1793115103.0616837, "outcome": "ok", "status": 200, "queue_wait_s": 4.495, "service_s": 0.2676, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115103.0728881, "outcome": "ok", "status": 200, "queue_wait_s": 4.4544, "service_s": 0.3195, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115392.7990253, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115392.799299, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115392.7994938, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115392.7996898, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115392.7998636, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115392.800426, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.0001, "service_s": 0.0084, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115392.8015518, "outcome": "upstream_error", "status": 502, "queue_wait_s": 0.002, "service_s": 0.001, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115393.1206317, "outcome": "ok", "status": 200, "queue_wait_s": 0.003, "service_s": 0.3189, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115393.3561695, "outcome": "ok", "status": 200, "queue_wait_s": 0.3221, "service_s": 0.2352, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115393.7171106, "outcome": "ok", "status": 200, "queue_wait_s": 0.5575, "service_s": 0.3606, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115456.478958, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0001, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115456.4792054, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115456.4793866, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115456.4795306, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115456.4796677, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115456.7386353, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.2604, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115457.090687, "outcome": "ok", "status": 200, "queue_wait_s": 0.2607, "service_s": 0.3518, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115457.3402267, "outcome": "ok", "status": 200, "queue_wait_s": 0.6131, "service_s": 0.2491, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115457.5185173, "outcome": "ok", "status": 200, "queue_wait_s": 0.8623, "service_s": 0.1781, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115457.7357638, "outcome": "ok", "status": 200, "queue_wait_s": 1.0406, "service_s": 0.217, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115531.2128086, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0002, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115531.2131596, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115531.213435, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115531.2138507, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0002, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115531.2140858, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0004, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115531.3985302, "outcome": "ok", "status": 200, "queue_wait_s": 0.0003, "service_s": 0.1875, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115531.5463748, "outcome": "ok", "status": 200, "queue_wait_s": 0.1879, "service_s": 0.1476, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115531.815946, "outcome": "ok", "status": 200, "queue_wait_s": 0.335, "service_s": 0.2693, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115531.9627542, "outcome": "ok", "status": 200, "queue_wait_s": 0.6045, "service_s": 0.1466, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115532.2322855, "outcome": "ok", "status": 200, "queue_wait_s": 0.7507, "service_s": 0.2692, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115540.5803251, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0009, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115540.580588, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115540.5807638, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115540.5809205, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115540.5810642, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115540.7564163, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.177, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115540.8922448, "outcome": "ok", "status": 200, "queue_wait_s": 0.1774, "service_s": 0.1355, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115541.1308658, "outcome": "ok", "status": 200, "queue_wait_s": 0.3133, "service_s": 0.2384, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115541.4416783, "outcome": "ok", "status": 200, "queue_wait_s": 0.5517, "service_s": 0.3106, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115541.618354, "outcome": "ok", "status": 200, "queue_wait_s": 0.8626, "service_s": 0.1764, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115543.511903, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0007, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115543.5121708, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115543.5123148, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0008, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115543.5124888, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115543.5126483, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115543.7902555, "outcome": "ok", "status": 200, "queue_wait_s": 0.0003, "service_s": 0.2787, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115543.9670286, "outcome": "ok", "status": 200, "queue_wait_s": 0.2792, "service_s": 0.1764, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115544.1445572, "outcome": "ok", "status": 200, "queue_wait_s": 0.4559, "service_s": 0.1773, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115544.3214386, "outcome": "ok", "status": 200, "queue_wait_s": 0.6335, "service_s": 0.1765, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115544.4984963, "outcome": "ok", "status": 200, "queue_wait_s": 0.8103, "service_s": 0.1768, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115545.9248402, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0001, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115545.9250438, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115545.9251666, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0004, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115545.925259, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0005, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115545.925353, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0008, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115546.0639822, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.14, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115546.4152172, "outcome": "ok", "status": 200, "queue_wait_s": 0.1404, "service_s": 0.351, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115546.6742277, "outcome": "ok", "status": 200, "queue_wait_s": 0.4916, "service_s": 0.2587, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115546.8924809, "outcome": "ok", "status": 200, "queue_wait_s": 0.7505, "service_s": 0.218, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115547.26458, "outcome": "ok", "status": 200, "queue_wait_s": 0.968, "service_s": 0.3719, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115548.445735, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115548.4460812, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0001, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115548.4462285, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115548.446381, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115548.446527, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115548.7491713, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.3041, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115549.0903716, "outcome": "ok", "status": 200, "queue_wait_s": 0.3045, "service_s": 0.341, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115549.2371514, "outcome": "ok", "status": 200, "queue_wait_s": 0.6457, "service_s": 0.1465, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115549.4450254, "outcome": "ok", "status": 200, "queue_wait_s": 0.7921, "service_s": 0.2076, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115549.580631, "outcome": "ok", "status": 200, "queue_wait_s": 0.9999, "service_s": 0.1353, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115613.6322064, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0001, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115613.6324124, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115613.6325333, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0006, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115613.6326692, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115613.6328397, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115613.8092072, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.1779, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115614.091475, "outcome": "ok", "status": 200, "queue_wait_s": 0.1783, "service_s": 0.282, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115614.3813007, "outcome": "ok", "status": 200, "queue_wait_s": 0.4606, "service_s": 0.2895, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115614.651537, "outcome": "ok", "status": 200, "queue_wait_s": 0.7497, "service_s": 0.27, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115614.8591805, "outcome": "ok", "status": 200, "queue_wait_s": 1.02, "service_s": 0.2074, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115617.0296996, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0001, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115617.0301244, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0001, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115617.0303357, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115617.030474, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0004, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115617.0305762, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0005, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115617.2026007, "outcome": "ok", "status": 200, "queue_wait_s": 0.0003, "service_s": 0.1739, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115617.3919652, "outcome": "ok", "status": 200, "queue_wait_s": 0.1741, "service_s": 0.1891, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115617.5280015, "outcome": "ok", "status": 200, "queue_wait_s": 0.3636, "service_s": 0.1358, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115617.7049298, "outcome": "ok", "status": 200, "queue_wait_s": 0.4996, "service_s": 0.1767, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115617.9638677, "outcome": "ok", "status": 200, "queue_wait_s": 0.6765, "service_s": 0.2587, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115619.343589, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0004, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115619.3438408, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115619.3441217, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115619.34427, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115619.3444064, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115619.6577342, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.3145, "waiting_at_exit": 4, "active_at_exit": 1}
-{"ts": 1793115619.9063609, "outcome": "ok", "status": 200, "queue_wait_s": 0.315, "service_s": 0.2483, "waiting_at_exit": 3, "active_at_exit": 1}
-{"ts": 1793115620.1145, "outcome": "ok", "status": 200, "queue_wait_s": 0.5635, "service_s": 0.2079, "waiting_at_exit": 2, "active_at_exit": 1}
-{"ts": 1793115620.260401, "outcome": "ok", "status": 200, "queue_wait_s": 0.7717, "service_s": 0.1456, "waiting_at_exit": 1, "active_at_exit": 1}
-{"ts": 1793115620.437259, "outcome": "ok", "status": 200, "queue_wait_s": 0.9175, "service_s": 0.1766, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115707.8085935, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0002, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115707.8088915, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115707.8090901, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115707.8092372, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115708.1375651, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.3297, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115708.2030911, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.402, "waiting_at_exit": 3, "active_at_exit": 2}
-{"ts": 1793115708.4779937, "outcome": "ok", "status": 200, "queue_wait_s": 0.3951, "service_s": 0.2747, "waiting_at_exit": 2, "active_at_exit": 2}
-{"ts": 1793115708.5108387, "outcome": "ok", "status": 200, "queue_wait_s": 0.3297, "service_s": 0.373, "waiting_at_exit": 1, "active_at_exit": 2}
-{"ts": 1793115708.7861788, "outcome": "ok", "status": 200, "queue_wait_s": 0.7027, "service_s": 0.2751, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115708.7972393, "outcome": "ok", "status": 200, "queue_wait_s": 0.67, "service_s": 0.319, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115709.9370625, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0002, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115709.9372826, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0008, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115709.9374504, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115709.937589, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115710.1193078, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.1834, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115710.1739762, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2378, "waiting_at_exit": 3, "active_at_exit": 2}
-{"ts": 1793115710.316718, "outcome": "ok", "status": 200, "queue_wait_s": 0.1837, "service_s": 0.1971, "waiting_at_exit": 2, "active_at_exit": 2}
-{"ts": 1793115710.3381038, "outcome": "ok", "status": 200, "queue_wait_s": 0.2374, "service_s": 0.1638, "waiting_at_exit": 1, "active_at_exit": 2}
-{"ts": 1793115710.503399, "outcome": "ok", "status": 200, "queue_wait_s": 0.4015, "service_s": 0.165, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115710.6067574, "outcome": "ok", "status": 200, "queue_wait_s": 0.3801, "service_s": 0.2897, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115711.638506, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115711.6387398, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115711.638908, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115711.6390436, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115711.8331695, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.1955, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115711.9206789, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.2833, "waiting_at_exit": 3, "active_at_exit": 2}
-{"ts": 1793115711.986425, "outcome": "ok", "status": 200, "queue_wait_s": 0.1962, "service_s": 0.1529, "waiting_at_exit": 2, "active_at_exit": 2}
-{"ts": 1793115712.1843445, "outcome": "ok", "status": 200, "queue_wait_s": 0.284, "service_s": 0.2634, "waiting_at_exit": 1, "active_at_exit": 2}
-{"ts": 1793115712.3717477, "outcome": "ok", "status": 200, "queue_wait_s": 0.3487, "service_s": 0.385, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115712.3828018, "outcome": "ok", "status": 200, "queue_wait_s": 0.5461, "service_s": 0.1982, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115713.1557024, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0002, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115713.1559024, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0004, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115713.1560233, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0005, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115713.156114, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0005, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115713.3492892, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.1948, "waiting_at_exit": 4, "active_at_exit": 2}
-{"ts": 1793115713.4702077, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.316, "waiting_at_exit": 3, "active_at_exit": 2}
-{"ts": 1793115713.5480742, "outcome": "ok", "status": 200, "queue_wait_s": 0.1954, "service_s": 0.1986, "waiting_at_exit": 2, "active_at_exit": 2}
-{"ts": 1793115713.6686754, "outcome": "ok", "status": 200, "queue_wait_s": 0.3163, "service_s": 0.1982, "waiting_at_exit": 1, "active_at_exit": 2}
-{"ts": 1793115713.745954, "outcome": "ok", "status": 200, "queue_wait_s": 0.3937, "service_s": 0.1975, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115713.8282402, "outcome": "ok", "status": 200, "queue_wait_s": 0.5136, "service_s": 0.1592, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115799.1728196, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115799.1733572, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115800.6237407, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 1.4589, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115800.6702323, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.4978, "waiting_at_exit": 3, "active_at_exit": 4}
-{"ts": 1793115800.6925113, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 1.5206, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115800.783937, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.6117, "waiting_at_exit": 1, "active_at_exit": 4}
-{"ts": 1793115800.8971684, "outcome": "ok", "status": 200, "queue_wait_s": 1.52, "service_s": 0.2044, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115800.9526067, "outcome": "ok", "status": 200, "queue_wait_s": 1.4514, "service_s": 0.3286, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115800.9528773, "outcome": "ok", "status": 200, "queue_wait_s": 1.4978, "service_s": 0.2824, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115801.025392, "outcome": "ok", "status": 200, "queue_wait_s": 1.6115, "service_s": 0.2411, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115807.5886886, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115807.588912, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115807.76024, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.1721, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115807.7606218, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.1731, "waiting_at_exit": 4, "active_at_exit": 3}
-{"ts": 1793115807.7948263, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.2069, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115807.9054368, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.317, "waiting_at_exit": 1, "active_at_exit": 4}
-{"ts": 1793115807.9508946, "outcome": "ok", "status": 200, "queue_wait_s": 0.2076, "service_s": 0.1558, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115807.9734561, "outcome": "ok", "status": 200, "queue_wait_s": 0.1736, "service_s": 0.2124, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115808.072714, "outcome": "ok", "status": 200, "queue_wait_s": 0.1727, "service_s": 0.3119, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115808.1659389, "outcome": "ok", "status": 200, "queue_wait_s": 0.3182, "service_s": 0.2603, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115809.4592254, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115809.4594743, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115809.6574438, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.1996, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115809.658112, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.1999, "waiting_at_exit": 3, "active_at_exit": 4}
-{"ts": 1793115809.7142277, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.2566, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115809.7595072, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.3014, "waiting_at_exit": 1, "active_at_exit": 4}
-{"ts": 1793115809.8618324, "outcome": "ok", "status": 200, "queue_wait_s": 0.199, "service_s": 0.2039, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115809.86221, "outcome": "ok", "status": 200, "queue_wait_s": 0.1992, "service_s": 0.2039, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115809.9167347, "outcome": "ok", "status": 200, "queue_wait_s": 0.2554, "service_s": 0.2022, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115809.927469, "outcome": "ok", "status": 200, "queue_wait_s": 0.3006, "service_s": 0.1677, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115811.817633, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115811.8178756, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115812.0680356, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2511, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115812.1471832, "outcome": "ok", "status": 200, "queue_wait_s": 0.0003, "service_s": 0.3305, "waiting_at_exit": 3, "active_at_exit": 4}
-{"ts": 1793115812.1584907, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.3414, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115812.2381005, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.4208, "waiting_at_exit": 1, "active_at_exit": 4}
-{"ts": 1793115812.3287513, "outcome": "ok", "status": 200, "queue_wait_s": 0.3423, "service_s": 0.17, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115812.4178612, "outcome": "ok", "status": 200, "queue_wait_s": 0.2518, "service_s": 0.3496, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115812.4289024, "outcome": "ok", "status": 200, "queue_wait_s": 0.331, "service_s": 0.2815, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115812.5219424, "outcome": "ok", "status": 200, "queue_wait_s": 0.4209, "service_s": 0.2836, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115818.377741, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115818.377959, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115818.5252168, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.1484, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115818.5841937, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.2072, "waiting_at_exit": 3, "active_at_exit": 4}
-{"ts": 1793115818.699677, "outcome": "ok", "status": 200, "queue_wait_s": 0.0007, "service_s": 0.3225, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115818.71086, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.3343, "waiting_at_exit": 1, "active_at_exit": 4}
-{"ts": 1793115818.8245504, "outcome": "ok", "status": 200, "queue_wait_s": 0.2069, "service_s": 0.24, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115818.8353388, "outcome": "ok", "status": 200, "queue_wait_s": 0.1479, "service_s": 0.3098, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115818.901598, "outcome": "ok", "status": 200, "queue_wait_s": 0.3223, "service_s": 0.2016, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115818.9227378, "outcome": "ok", "status": 200, "queue_wait_s": 0.3334, "service_s": 0.2116, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115821.0412965, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115821.0417502, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115821.187358, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.1473, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115821.2461226, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2058, "waiting_at_exit": 3, "active_at_exit": 4}
-{"ts": 1793115821.3370106, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.2966, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115821.3372676, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.2967, "waiting_at_exit": 2, "active_at_exit": 3}
-{"ts": 1793115821.4617233, "outcome": "ok", "status": 200, "queue_wait_s": 0.1466, "service_s": 0.2741, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115821.4835272, "outcome": "ok", "status": 200, "queue_wait_s": 0.2054, "service_s": 0.2372, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115821.5056295, "outcome": "ok", "status": 200, "queue_wait_s": 0.2962, "service_s": 0.1682, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115821.536864, "outcome": "ok", "status": 200, "queue_wait_s": 0.2963, "service_s": 0.1993, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115884.3226624, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115884.3228922, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115884.5286236, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.207, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115884.5397637, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2174, "waiting_at_exit": 3, "active_at_exit": 4}
-{"ts": 1793115884.621827, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.2994, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115884.7177832, "outcome": "ok", "status": 200, "queue_wait_s": 0.0007, "service_s": 0.3958, "waiting_at_exit": 1, "active_at_exit": 4}
-{"ts": 1793115884.7480884, "outcome": "ok", "status": 200, "queue_wait_s": 0.2186, "service_s": 0.208, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115884.7698605, "outcome": "ok", "status": 200, "queue_wait_s": 0.2075, "service_s": 0.2409, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115884.869337, "outcome": "ok", "status": 200, "queue_wait_s": 0.3968, "service_s": 0.151, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115884.962641, "outcome": "ok", "status": 200, "queue_wait_s": 0.3006, "service_s": 0.3405, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793115887.273483, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115887.2737362, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115887.4540875, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.1817, "waiting_at_exit": 4, "active_at_exit": 4}
-{"ts": 1793115887.4764287, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.2033, "waiting_at_exit": 3, "active_at_exit": 4}
-{"ts": 1793115887.5451465, "outcome": "ok", "status": 200, "queue_wait_s": 0.0007, "service_s": 0.2722, "waiting_at_exit": 2, "active_at_exit": 4}
-{"ts": 1793115887.579376, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.3066, "waiting_at_exit": 1, "active_at_exit": 4}
-{"ts": 1793115887.7147346, "outcome": "ok", "status": 200, "queue_wait_s": 0.182, "service_s": 0.2604, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793115887.7592854, "outcome": "ok", "status": 200, "queue_wait_s": 0.3062, "service_s": 0.1797, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793115887.8376236, "outcome": "ok", "status": 200, "queue_wait_s": 0.2043, "service_s": 0.361, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793115887.8379812, "outcome": "ok", "status": 200, "queue_wait_s": 0.2721, "service_s": 0.2926, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793116079.1746671, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.3517, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793116079.2110949, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 1.3964, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793116079.2225997, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.3995, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793116079.2350638, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 1.4135, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793116079.259244, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.4372, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793116079.2595563, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.4368, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793116079.3796308, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.5571, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793116079.3912864, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 1.5694, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793116079.3915927, "outcome": "ok", "status": 200, "queue_wait_s": 1.3517, "service_s": 0.2166, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793116079.39195, "outcome": "ok", "status": 200, "queue_wait_s": 1.3881, "service_s": 0.1805, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793116084.1916661, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.1711, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793116084.2041874, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.1839, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793116084.2421992, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2212, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793116084.242499, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2217, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793116084.3116417, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2924, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793116084.3352184, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.3166, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793116084.3463678, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.3259, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793116084.3919632, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.3729, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793116084.4260857, "outcome": "ok", "status": 200, "queue_wait_s": 0.1833, "service_s": 0.2217, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793116084.517986, "outcome": "ok", "status": 200, "queue_wait_s": 0.1708, "service_s": 0.326, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793116086.1862814, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.1755, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793116086.210377, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.2011, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793116086.2236412, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2141, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793116086.2240016, "outcome": "ok", "status": 200, "queue_wait_s": 0.001, "service_s": 0.2138, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793116086.2712686, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2607, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793116086.2825193, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.2728, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793116086.4202402, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.4102, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793116086.4430966, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.4327, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793116086.49989, "outcome": "ok", "status": 200, "queue_wait_s": 0.1997, "service_s": 0.2892, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793116086.542322, "outcome": "ok", "status": 200, "queue_wait_s": 0.1756, "service_s": 0.3558, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793116095.4283307, "outcome": "ok", "status": 200, "queue_wait_s": 0.0007, "service_s": 0.166, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793116095.4290366, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.1666, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793116095.4760501, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.2135, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793116095.5112956, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.2491, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793116095.5115714, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2496, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793116095.579502, "outcome": "ok", "status": 200, "queue_wait_s": 0.0013, "service_s": 0.3164, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793116095.5906875, "outcome": "ok", "status": 200, "queue_wait_s": 0.0012, "service_s": 0.3277, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793116095.6021442, "outcome": "ok", "status": 200, "queue_wait_s": 0.0014, "service_s": 0.3389, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793116095.6353528, "outcome": "ok", "status": 200, "queue_wait_s": 0.1654, "service_s": 0.2066, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793116095.6461046, "outcome": "ok", "status": 200, "queue_wait_s": 0.1656, "service_s": 0.2169, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793116097.7062662, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.155, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793116097.7308338, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.1792, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793116097.769255, "outcome": "ok", "status": 200, "queue_wait_s": 0.0003, "service_s": 0.217, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793116097.769554, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2167, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793116097.803141, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.2513, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793116097.8486636, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.296, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793116097.8600378, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.3076, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793116097.926944, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.3739, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793116098.0151768, "outcome": "ok", "status": 200, "queue_wait_s": 0.1778, "service_s": 0.284, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793116098.0878205, "outcome": "ok", "status": 200, "queue_wait_s": 0.1531, "service_s": 0.3813, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793116099.319982, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.1621, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793116099.3559022, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.1987, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793116099.3562171, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.1986, "waiting_at_exit": 1, "active_at_exit": 7}
-{"ts": 1793116099.3677611, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.209, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793116099.3680487, "outcome": "ok", "status": 200, "queue_wait_s": 0.0012, "service_s": 0.2097, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793116099.402339, "outcome": "ok", "status": 200, "queue_wait_s": 0.001, "service_s": 0.2441, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793116099.4027627, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2442, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793116099.513289, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.3552, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793116099.5574267, "outcome": "ok", "status": 200, "queue_wait_s": 0.1974, "service_s": 0.2011, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793116099.5889235, "outcome": "ok", "status": 200, "queue_wait_s": 0.1614, "service_s": 0.2687, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793120269.631058, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.631372, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.6316242, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.631823, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.6319497, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.632071, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.6321907, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.6323333, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120269.970447, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.3403, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120270.005653, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.3765, "waiting_at_exit": 3, "active_at_exit": 8}
-{"ts": 1793120270.0170798, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.3868, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793120270.0286107, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.4063, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793120270.0543582, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.4248, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793120270.054624, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.4247, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793120270.169746, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.5399, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793120270.1813512, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.552, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793120270.1819596, "outcome": "ok", "status": 200, "queue_wait_s": 0.3404, "service_s": 0.2112, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793120270.1821496, "outcome": "ok", "status": 200, "queue_wait_s": 0.3754, "service_s": 0.1763, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793120270.218197, "outcome": "ok", "status": 200, "queue_wait_s": 0.3983, "service_s": 0.1893, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793120270.3294177, "outcome": "ok", "status": 200, "queue_wait_s": 0.3868, "service_s": 0.3121, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793120388.478334, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.4789128, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.4791312, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.4793851, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0001, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.4795656, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.4797037, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.4798305, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.4799504, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.656533, "outcome": "ok", "status": 200, "queue_wait_s": 0.0007, "service_s": 0.1788, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120388.6686423, "outcome": "ok", "status": 200, "queue_wait_s": 0.001, "service_s": 0.1905, "waiting_at_exit": 3, "active_at_exit": 8}
-{"ts": 1793120388.7070236, "outcome": "ok", "status": 200, "queue_wait_s": 0.0011, "service_s": 0.2295, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793120388.7073152, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.2293, "waiting_at_exit": 2, "active_at_exit": 7}
-{"ts": 1793120388.707489, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2307, "waiting_at_exit": 2, "active_at_exit": 6}
-{"ts": 1793120388.776924, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.2991, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793120388.7997246, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.3226, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793120388.858501, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.3806, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793120388.8923306, "outcome": "ok", "status": 200, "queue_wait_s": 0.1797, "service_s": 0.2355, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793120388.9079092, "outcome": "ok", "status": 200, "queue_wait_s": 0.1924, "service_s": 0.239, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793120388.9085526, "outcome": "ok", "status": 200, "queue_wait_s": 0.2311, "service_s": 0.2008, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793120388.946796, "outcome": "ok", "status": 200, "queue_wait_s": 0.231, "service_s": 0.2392, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793120392.6749728, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0031, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.6752775, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0033, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.6755688, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.6758347, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.6760776, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.6763453, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.6766403, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.6768737, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.8532312, "outcome": "ok", "status": 200, "queue_wait_s": 0.0021, "service_s": 0.1795, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120392.9255626, "outcome": "ok", "status": 200, "queue_wait_s": 0.0018, "service_s": 0.2521, "waiting_at_exit": 3, "active_at_exit": 8}
-{"ts": 1793120392.9370496, "outcome": "ok", "status": 200, "queue_wait_s": 0.0017, "service_s": 0.2638, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793120392.9485173, "outcome": "ok", "status": 200, "queue_wait_s": 0.0028, "service_s": 0.2739, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793120392.9740894, "outcome": "ok", "status": 200, "queue_wait_s": 0.0012, "service_s": 0.3015, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793120393.0218446, "outcome": "ok", "status": 200, "queue_wait_s": 0.1817, "service_s": 0.1683, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793120393.0445452, "outcome": "ok", "status": 200, "queue_wait_s": 0.0015, "service_s": 0.3716, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793120393.0785398, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.4064, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793120393.112356, "outcome": "ok", "status": 200, "queue_wait_s": 0.0023, "service_s": 0.4383, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793120393.1347177, "outcome": "ok", "status": 200, "queue_wait_s": 0.254, "service_s": 0.2089, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793120393.2564733, "outcome": "ok", "status": 200, "queue_wait_s": 0.2654, "service_s": 0.3192, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793120393.27759, "outcome": "ok", "status": 200, "queue_wait_s": 0.2769, "service_s": 0.3288, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793120836.1244328, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.1333144, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.1336088, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.1337967, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.133944, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.1340694, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.1341827, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.1342916, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.3215358, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.1984, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120836.3701224, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2474, "waiting_at_exit": 3, "active_at_exit": 8}
-{"ts": 1793120836.370479, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.2472, "waiting_at_exit": 3, "active_at_exit": 7}
-{"ts": 1793120836.3929043, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.27, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793120836.4059196, "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.2834, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793120836.4659772, "outcome": "ok", "status": 200, "queue_wait_s": 0.0002, "service_s": 0.3501, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793120836.4673066, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.3438, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793120836.5334933, "outcome": "ok", "status": 200, "queue_wait_s": 0.0, "service_s": 0.4098, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793120836.5444858, "outcome": "ok", "status": 200, "queue_wait_s": 0.2469, "service_s": 0.1736, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793120836.6000738, "outcome": "ok", "status": 200, "queue_wait_s": 0.198, "service_s": 0.2783, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793120836.6005921, "outcome": "ok", "status": 200, "queue_wait_s": 0.2689, "service_s": 0.2074, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793120836.6112144, "outcome": "ok", "status": 200, "queue_wait_s": 0.2468, "service_s": 0.2406, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793120851.5666358, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.566898, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.5675337, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0005, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.567701, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0006, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.5678217, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0007, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.5679247, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0007, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.5680304, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0008, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.56818, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.7347066, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.1698, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120851.7713442, "outcome": "ok", "status": 200, "queue_wait_s": 0.0007, "service_s": 0.2053, "waiting_at_exit": 3, "active_at_exit": 8}
-{"ts": 1793120851.7832963, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.2174, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793120851.7836144, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.2173, "waiting_at_exit": 2, "active_at_exit": 7}
-{"ts": 1793120851.8198545, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.2536, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793120851.8660214, "outcome": "ok", "status": 200, "queue_wait_s": 0.0011, "service_s": 0.3005, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793120851.8775196, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.3123, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793120851.9344625, "outcome": "ok", "status": 200, "queue_wait_s": 0.001, "service_s": 0.368, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793120851.9347801, "outcome": "ok", "status": 200, "queue_wait_s": 0.1695, "service_s": 0.1998, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793120851.9901013, "outcome": "ok", "status": 200, "queue_wait_s": 0.2192, "service_s": 0.2061, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793120852.0569644, "outcome": "ok", "status": 200, "queue_wait_s": 0.219, "service_s": 0.2732, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793120852.07871, "outcome": "ok", "status": 200, "queue_wait_s": 0.207, "service_s": 0.3071, "waiting_at_exit": 0, "active_at_exit": 1}
-{"ts": 1793120853.3033805, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0017, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.3037722, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0002, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.3039753, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.304127, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.304253, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.304381, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.3044937, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.3046055, "outcome": "queue_full", "status": 429, "queue_wait_s": 0.0, "service_s": 0.0, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.4768684, "outcome": "ok", "status": 200, "queue_wait_s": 0.0005, "service_s": 0.1743, "waiting_at_exit": 4, "active_at_exit": 8}
-{"ts": 1793120853.488385, "outcome": "ok", "status": 200, "queue_wait_s": 0.0011, "service_s": 0.1852, "waiting_at_exit": 3, "active_at_exit": 8}
-{"ts": 1793120853.4996457, "outcome": "ok", "status": 200, "queue_wait_s": 0.0008, "service_s": 0.1967, "waiting_at_exit": 2, "active_at_exit": 8}
-{"ts": 1793120853.5125268, "outcome": "ok", "status": 200, "queue_wait_s": 0.001, "service_s": 0.2094, "waiting_at_exit": 1, "active_at_exit": 8}
-{"ts": 1793120853.5626664, "outcome": "ok", "status": 200, "queue_wait_s": 0.0004, "service_s": 0.2609, "waiting_at_exit": 0, "active_at_exit": 8}
-{"ts": 1793120853.5970242, "outcome": "ok", "status": 200, "queue_wait_s": 0.0006, "service_s": 0.2943, "waiting_at_exit": 0, "active_at_exit": 7}
-{"ts": 1793120853.6662939, "outcome": "ok", "status": 200, "queue_wait_s": 0.0009, "service_s": 0.364, "waiting_at_exit": 0, "active_at_exit": 6}
-{"ts": 1793120853.6776154, "outcome": "ok", "status": 200, "queue_wait_s": 0.0007, "service_s": 0.3748, "waiting_at_exit": 0, "active_at_exit": 5}
-{"ts": 1793120853.7108874, "outcome": "ok", "status": 200, "queue_wait_s": 0.1984, "service_s": 0.211, "waiting_at_exit": 0, "active_at_exit": 4}
-{"ts": 1793120853.722172, "outcome": "ok", "status": 200, "queue_wait_s": 0.2112, "service_s": 0.2095, "waiting_at_exit": 0, "active_at_exit": 3}
-{"ts": 1793120853.7554407, "outcome": "ok", "status": 200, "queue_wait_s": 0.1864, "service_s": 0.2668, "waiting_at_exit": 0, "active_at_exit": 2}
-{"ts": 1793120853.766328, "outcome": "ok", "status": 200, "queue_wait_s": 0.175, "service_s": 0.2891, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541175.9946167, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.4929, "total_s": 0.4932, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541176.7232382, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0005, "service_s": 0.7226, "total_s": 0.7231, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541179.0475512, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.5746, "service_s": 2.3233, "total_s": 2.8979, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541179.358971, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 1.0214, "service_s": 0.3108, "total_s": 1.3321, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541179.7850206, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.3144, "total_s": 0.3146, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541180.103638, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0194, "service_s": 0.3179, "total_s": 0.3373, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541180.759383, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.3062, "total_s": 0.3065, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541181.3617716, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.312, "total_s": 0.3121, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541182.8358786, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.7271, "total_s": 0.7273, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541183.9766328, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.3134, "total_s": 0.3136, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793541185.7068386, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.2162, "service_s": 1.7292, "total_s": 1.9454, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793541186.5278995, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 1.9134, "service_s": 0.8204, "total_s": 2.7338, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793541186.8529952, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.9282, "service_s": 0.3245, "total_s": 1.2527, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541188.367869, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.6853, "service_s": 1.5143, "total_s": 2.1996, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793541190.1146076, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.7632, "service_s": 1.7461, "total_s": 2.5093, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541191.0526748, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 2.5074, "service_s": 0.9376, "total_s": 3.445, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793541192.3479846, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 2.852, "service_s": 1.2947, "total_s": 4.1468, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793541193.6529512, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 2.8703, "service_s": 1.3041, "total_s": 4.1744, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793541194.417089, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 3.9121, "service_s": 0.7631, "total_s": 4.6753, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541195.3572214, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 1.7722, "service_s": 0.9394, "total_s": 2.7116, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541196.682849, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.3935, "service_s": 1.325, "total_s": 1.7185, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541239.1647727, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.3125, "total_s": 0.3127, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541239.4831228, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.3144, "total_s": 0.3145, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541240.4397984, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541240.7068715, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0006, "service_s": 0.0, "total_s": 0.0006, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541241.097911, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0009, "service_s": 0.0, "total_s": 0.0009, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541241.1246433, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0007, "service_s": 0.0, "total_s": 0.0007, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541241.1449883, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541241.5805027, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541241.7226179, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541242.0824487, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541242.0833457, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541242.2318578, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541242.4474163, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.2772, "service_s": 2.9614, "total_s": 3.2386, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541242.621935, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0005, "service_s": 0.0, "total_s": 0.0005, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541243.349967, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0008, "service_s": 0.0, "total_s": 0.0008, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541243.9271934, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541243.9353673, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541243.9418108, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541244.1393757, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541244.84134, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541244.9622166, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.0234537, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.044391, "mode": "baseline", "outcome": "queue_deadline", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 5.0009, "service_s": 0.0, "total_s": 5.0009, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.1207278, "mode": "baseline", "outcome": "queue_deadline", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 5.0013, "service_s": 0.0, "total_s": 5.0013, "met_deadline": null, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793541245.2328112, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.2917724, "mode": "baseline", "outcome": "queue_deadline", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 5.0011, "service_s": 0.0, "total_s": 5.0011, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.4677768, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 2.7705, "service_s": 3.0185, "total_s": 5.789, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.619178, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.683973, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.7476037, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.9019485, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.9042516, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 2.9132, "service_s": 0.4359, "total_s": 3.3491, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541245.9946063, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541246.4504673, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541246.6552453, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541246.9119556, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541247.1488283, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.7429, "service_s": 1.2436, "total_s": 1.9865, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541247.582215, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 1.9793, "service_s": 0.4328, "total_s": 2.4121, "met_deadline": false, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793541249.0266993, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 2.2052, "service_s": 1.4436, "total_s": 3.6489, "met_deadline": false, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793541249.335483, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 3.4763, "service_s": 0.3083, "total_s": 3.7845, "met_deadline": false, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541249.6541452, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 3.3488, "service_s": 0.318, "total_s": 3.6668, "met_deadline": false, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541270.6393912, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.3201, "total_s": 0.3202, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541270.9607892, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.3161, "total_s": 0.3164, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541271.3334305, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.2886, "service_s": 0.3715, "total_s": 0.6601, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793541271.671063, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541271.9277902, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541271.946495, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541271.951177, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541272.25373, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541272.34927, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541272.591145, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0005, "service_s": 0.0, "total_s": 0.0005, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541272.5950997, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541272.6910717, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541272.724406, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.3513, "service_s": 1.3902, "total_s": 1.7415, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541272.9620855, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541273.4293597, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 1.4959, "service_s": 0.7041, "total_s": 2.2, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541273.8243904, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541273.8289685, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541273.8339088, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541273.965767, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.4337041, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.514458, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.555326, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.6476483, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.653622, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.6961, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.7928143, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.807447, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 2.1479, "service_s": 1.3774, "total_s": 3.5252, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.9518838, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541274.9969547, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.0383272, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.127737, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 3.4173, "service_s": 0.3197, "total_s": 3.737, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.2005844, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.2042298, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.5086114, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.644483, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.8162405, "mode": "baseline", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541275.9624326, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 3.6348, "service_s": 0.834, "total_s": 4.4688, "met_deadline": false, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793541277.2046397, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 3.0559, "service_s": 1.2417, "total_s": 4.2975, "met_deadline": false, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793541277.5221658, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 3.7687, "service_s": 0.3169, "total_s": 4.0856, "met_deadline": false, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793541278.7684665, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 2.6159, "service_s": 1.2455, "total_s": 3.8614, "met_deadline": false, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541279.1729214, "mode": "baseline", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 3.6259, "service_s": 0.4038, "total_s": 4.0297, "met_deadline": false, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541492.8229053, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 10000.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.3252, "total_s": 0.3253, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541995.0813708, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": 325, "queue_wait_s": 0.0001, "service_s": 0.2504, "total_s": 0.2505, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541995.3320603, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 310, "queue_wait_s": 0.0001, "service_s": 0.2491, "total_s": 0.2492, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793541995.5833561, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 620, "queue_wait_s": 0.1017, "service_s": 0.251, "total_s": 0.3527, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541997.3541548, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 289, "queue_wait_s": 0.0001, "service_s": 0.2427, "total_s": 0.2428, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541998.7984328, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 279, "queue_wait_s": 0.0001, "service_s": 0.2422, "total_s": 0.2423, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541999.094204, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 272, "queue_wait_s": 0.0001, "service_s": 0.2433, "total_s": 0.2434, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793541999.778445, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 266, "queue_wait_s": 0.0001, "service_s": 0.2426, "total_s": 0.2426, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542000.3770185, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 261, "queue_wait_s": 0.0001, "service_s": 0.2428, "total_s": 0.2429, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542001.4339113, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 258, "queue_wait_s": 0.0001, "service_s": 0.2429, "total_s": 0.243, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542002.9853404, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 255, "queue_wait_s": 0.0001, "service_s": 0.2391, "total_s": 0.2392, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542003.229479, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 510, "queue_wait_s": 0.1384, "service_s": 0.2439, "total_s": 0.3823, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542003.473091, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 764, "queue_wait_s": 0.3537, "service_s": 0.2434, "total_s": 0.597, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542004.9202375, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 249, "queue_wait_s": 0.0001, "service_s": 0.2368, "total_s": 0.2368, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542005.488534, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 246, "queue_wait_s": 0.0001, "service_s": 0.2373, "total_s": 0.2374, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542006.9252706, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 245, "queue_wait_s": 0.0001, "service_s": 0.2369, "total_s": 0.237, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542007.1688755, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 489, "queue_wait_s": 0.2349, "service_s": 0.2433, "total_s": 0.4782, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542007.5197563, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 243, "queue_wait_s": 0.0001, "service_s": 0.2377, "total_s": 0.2379, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542008.797524, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 242, "queue_wait_s": 0.0001, "service_s": 0.2369, "total_s": 0.237, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542009.0581965, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 241, "queue_wait_s": 0.0001, "service_s": 0.2372, "total_s": 0.2373, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542011.9714541, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 240, "queue_wait_s": 0.0001, "service_s": 0.2409, "total_s": 0.241, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542014.2890592, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 240, "queue_wait_s": 0.0001, "service_s": 0.2387, "total_s": 0.2388, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542031.8701499, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": 240, "queue_wait_s": 0.0001, "service_s": 0.2499, "total_s": 0.25, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542032.1215177, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 242, "queue_wait_s": 0.0001, "service_s": 0.2495, "total_s": 0.2496, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542032.3716676, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 484, "queue_wait_s": 0.2105, "service_s": 0.2498, "total_s": 0.4603, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542032.6256843, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 245, "queue_wait_s": 0.0001, "service_s": 0.2446, "total_s": 0.2447, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542032.9892936, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 245, "queue_wait_s": 0.0001, "service_s": 0.2464, "total_s": 0.2466, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542033.2427359, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 489, "queue_wait_s": 0.1734, "service_s": 0.2529, "total_s": 0.4263, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542033.4936917, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 490, "queue_wait_s": 0.2503, "service_s": 0.2507, "total_s": 0.501, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542033.7434313, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 735, "queue_wait_s": 0.3552, "service_s": 0.2494, "total_s": 0.6046, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542033.9946132, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 740, "queue_wait_s": 0.3414, "service_s": 0.2509, "total_s": 0.5923, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542034.2455292, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 496, "queue_wait_s": 0.2027, "service_s": 0.2507, "total_s": 0.4534, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542034.4963787, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 744, "queue_wait_s": 0.428, "service_s": 0.2504, "total_s": 0.6784, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542034.7464395, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 991, "queue_wait_s": 0.6702, "service_s": 0.2497, "total_s": 0.9199, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542034.9962416, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 747, "queue_wait_s": 0.4693, "service_s": 0.2493, "total_s": 0.7186, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542035.2462196, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 996, "queue_wait_s": 0.5752, "service_s": 0.2497, "total_s": 0.8249, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542035.4962513, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 748, "queue_wait_s": 0.4652, "service_s": 0.2497, "total_s": 0.7148, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542035.7499917, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 997, "queue_wait_s": 0.7137, "service_s": 0.2535, "total_s": 0.9672, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542035.9999907, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1246, "queue_wait_s": 0.8177, "service_s": 0.2497, "total_s": 1.0674, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542036.252641, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 997, "queue_wait_s": 0.7482, "service_s": 0.2524, "total_s": 1.0006, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542036.5035293, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1247, "queue_wait_s": 0.9348, "service_s": 0.2506, "total_s": 1.1854, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542036.7555385, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 750, "queue_wait_s": 0.4591, "service_s": 0.2517, "total_s": 0.7108, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542037.0057435, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 501, "queue_wait_s": 0.1306, "service_s": 0.25, "total_s": 0.3806, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542037.2571526, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 752, "queue_wait_s": 0.3721, "service_s": 0.2511, "total_s": 0.6233, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542037.5066912, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1002, "queue_wait_s": 0.617, "service_s": 0.2493, "total_s": 0.8663, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542037.7600908, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1003, "queue_wait_s": 0.6709, "service_s": 0.2531, "total_s": 0.9241, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542037.9289498, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0, "service_s": 0.0, "total_s": 0.0, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.0093288, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 501, "queue_wait_s": 0.2254, "service_s": 0.2478, "total_s": 0.4732, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.2446089, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.2601993, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 751, "queue_wait_s": 0.3528, "service_s": 0.2504, "total_s": 0.6033, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.3769975, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0002, "service_s": 0.0, "total_s": 0.0002, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.4389167, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.5105042, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1002, "queue_wait_s": 0.5417, "service_s": 0.25, "total_s": 0.7918, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.6797678, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.6854815, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542038.7612252, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1004, "queue_wait_s": 0.6542, "service_s": 0.2501, "total_s": 0.9043, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542039.0121236, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1255, "queue_wait_s": 0.8963, "service_s": 0.2505, "total_s": 1.1468, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542039.2614577, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1252, "queue_wait_s": 0.9404, "service_s": 0.2488, "total_s": 1.1892, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542039.5125976, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1252, "queue_wait_s": 0.9508, "service_s": 0.2508, "total_s": 1.2016, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542039.7638814, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1252, "queue_wait_s": 0.9192, "service_s": 0.251, "total_s": 1.1702, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542040.0141592, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1001, "queue_wait_s": 0.6239, "service_s": 0.2499, "total_s": 0.8738, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542040.2649114, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1000, "queue_wait_s": 0.67, "service_s": 0.2504, "total_s": 0.9204, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542040.5154383, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1001, "queue_wait_s": 0.6632, "service_s": 0.2502, "total_s": 0.9134, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542195.2380745, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": 250, "queue_wait_s": 0.0001, "service_s": 0.254, "total_s": 0.2541, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542195.489398, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 251, "queue_wait_s": 0.0001, "service_s": 0.2494, "total_s": 0.2495, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542195.739133, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 502, "queue_wait_s": 0.2233, "service_s": 0.2494, "total_s": 0.4727, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542195.9899542, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 501, "queue_wait_s": 0.1603, "service_s": 0.2506, "total_s": 0.4108, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542196.2412672, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 501, "queue_wait_s": 0.1694, "service_s": 0.2511, "total_s": 0.4205, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542196.4919114, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 751, "queue_wait_s": 0.3685, "service_s": 0.2503, "total_s": 0.6188, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542196.544372, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0, "service_s": 0.0, "total_s": 0.0, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542196.7414389, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1002, "queue_wait_s": 0.5061, "service_s": 0.2492, "total_s": 0.7553, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542196.9399867, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542196.9952157, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1002, "queue_wait_s": 0.656, "service_s": 0.2535, "total_s": 0.9095, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542197.1801739, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0, "service_s": 0.0, "total_s": 0.0, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542197.2466433, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1002, "queue_wait_s": 0.7335, "service_s": 0.2511, "total_s": 0.9846, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542197.4928615, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542197.4983368, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1002, "queue_wait_s": 0.7243, "service_s": 0.2515, "total_s": 0.9758, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542197.7489643, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1253, "queue_wait_s": 0.9591, "service_s": 0.2502, "total_s": 1.2093, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542197.999586, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1251, "queue_wait_s": 0.9042, "service_s": 0.2503, "total_s": 1.1545, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542198.2512188, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1255, "queue_wait_s": 0.8199, "service_s": 0.2514, "total_s": 1.0713, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542198.420172, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542198.502143, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1255, "queue_wait_s": 0.9724, "service_s": 0.2506, "total_s": 1.223, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542198.752695, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1255, "queue_wait_s": 0.9651, "service_s": 0.2503, "total_s": 1.2154, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.005001, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1003, "queue_wait_s": 0.7309, "service_s": 0.2521, "total_s": 0.983, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542199.1400359, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.2318497, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.2375813, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.255427, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1004, "queue_wait_s": 0.5961, "service_s": 0.2502, "total_s": 0.8463, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.3768275, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.4914956, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.5058868, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1254, "queue_wait_s": 0.8408, "service_s": 0.2501, "total_s": 1.091, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.5810416, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.6233702, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.7267468, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.7555215, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1254, "queue_wait_s": 0.9557, "service_s": 0.2493, "total_s": 1.205, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542199.7885675, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542200.00569, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1004, "queue_wait_s": 0.7382, "service_s": 0.2499, "total_s": 0.9882, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542200.2279406, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542200.2574134, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1255, "queue_wait_s": 0.9077, "service_s": 0.2514, "total_s": 1.1591, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542200.5071793, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1254, "queue_wait_s": 0.9779, "service_s": 0.2494, "total_s": 1.2273, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542200.7583957, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1253, "queue_wait_s": 0.9711, "service_s": 0.2509, "total_s": 1.222, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542201.0092263, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1252, "queue_wait_s": 0.9747, "service_s": 0.2506, "total_s": 1.2253, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542201.2608068, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1252, "queue_wait_s": 0.9174, "service_s": 0.2512, "total_s": 1.1686, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542201.5098524, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1253, "queue_wait_s": 0.861, "service_s": 0.2485, "total_s": 1.1095, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542277.7026117, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": 250, "queue_wait_s": 0.0001, "service_s": 0.2541, "total_s": 0.2541, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542277.9465358, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 251, "queue_wait_s": 0.0001, "service_s": 0.2419, "total_s": 0.242, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542278.1899116, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 502, "queue_wait_s": 0.2029, "service_s": 0.2431, "total_s": 0.446, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542278.4505537, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 248, "queue_wait_s": 0.0001, "service_s": 0.2371, "total_s": 0.2372, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542278.8153017, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 246, "queue_wait_s": 0.0001, "service_s": 0.2397, "total_s": 0.2398, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542279.0583842, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 492, "queue_wait_s": 0.1664, "service_s": 0.2426, "total_s": 0.409, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542279.3034475, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 489, "queue_wait_s": 0.2376, "service_s": 0.2448, "total_s": 0.4823, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542279.546901, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 734, "queue_wait_s": 0.3308, "service_s": 0.243, "total_s": 0.5738, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542279.661011, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 976, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542279.7908988, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 733, "queue_wait_s": 0.311, "service_s": 0.2435, "total_s": 0.5545, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542280.035955, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 488, "queue_wait_s": 0.1655, "service_s": 0.2448, "total_s": 0.4103, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542280.278444, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 732, "queue_wait_s": 0.3848, "service_s": 0.2421, "total_s": 0.6269, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542280.523919, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 488, "queue_wait_s": 0.1665, "service_s": 0.2452, "total_s": 0.4117, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542280.7642272, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 976, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542280.7681553, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 732, "queue_wait_s": 0.268, "service_s": 0.2439, "total_s": 0.512, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542281.012379, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 488, "queue_wait_s": 0.1528, "service_s": 0.2439, "total_s": 0.3967, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542281.2562714, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 732, "queue_wait_s": 0.3965, "service_s": 0.2437, "total_s": 0.6401, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542281.5002685, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 488, "queue_wait_s": 0.1725, "service_s": 0.2436, "total_s": 0.4162, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542281.743809, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 732, "queue_wait_s": 0.3506, "service_s": 0.2433, "total_s": 0.5938, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542282.1143126, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 244, "queue_wait_s": 0.0001, "service_s": 0.237, "total_s": 0.237, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542282.668777, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 970, "queue_wait_s": 0.0, "service_s": 0.0, "total_s": 0.0, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542282.6953015, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 242, "queue_wait_s": 0.0001, "service_s": 0.2381, "total_s": 0.2382, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542282.9395301, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 485, "queue_wait_s": 0.2297, "service_s": 0.244, "total_s": 0.4736, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542283.1832545, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 727, "queue_wait_s": 0.4669, "service_s": 0.2433, "total_s": 0.7102, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542283.6054401, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 242, "queue_wait_s": 0.0001, "service_s": 0.2366, "total_s": 0.2367, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542283.696373, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 965, "queue_wait_s": 0.0, "service_s": 0.0, "total_s": 0.0, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542283.7596574, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 965, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542283.8499703, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 485, "queue_wait_s": 0.1162, "service_s": 0.2443, "total_s": 0.3605, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.0767126, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 967, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.0942464, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 727, "queue_wait_s": 0.2992, "service_s": 0.244, "total_s": 0.5432, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.208793, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 969, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.271404, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 969, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.338239, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 723, "queue_wait_s": 0.4057, "service_s": 0.2437, "total_s": 0.6494, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.5118616, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 970, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.5177, "mode": "sla", "outcome": "sla_unmeetable", "status": 429, "deadline_ms": 800.0, "predicted_ms": 970, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.5815692, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 725, "queue_wait_s": 0.434, "service_s": 0.2431, "total_s": 0.677, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542284.8255405, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 727, "queue_wait_s": 0.439, "service_s": 0.2437, "total_s": 0.6827, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542285.069253, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 728, "queue_wait_s": 0.4, "service_s": 0.2434, "total_s": 0.6434, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542285.3144379, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 486, "queue_wait_s": 0.0972, "service_s": 0.2449, "total_s": 0.3421, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542285.5583498, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 486, "queue_wait_s": 0.139, "service_s": 0.2437, "total_s": 0.3826, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542285.802171, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 800.0, "predicted_ms": 487, "queue_wait_s": 0.1238, "service_s": 0.2435, "total_s": 0.3673, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542305.076272, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": 243, "queue_wait_s": 0.0001, "service_s": 0.2827, "total_s": 0.2828, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542305.3201592, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 251, "queue_wait_s": 0.0001, "service_s": 0.242, "total_s": 0.242, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542305.5642064, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 503, "queue_wait_s": 0.2032, "service_s": 0.2438, "total_s": 0.4469, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542305.8276737, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 248, "queue_wait_s": 0.0001, "service_s": 0.2405, "total_s": 0.2406, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542306.188481, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 247, "queue_wait_s": 0.0001, "service_s": 0.239, "total_s": 0.2391, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542306.4319909, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 493, "queue_wait_s": 0.1658, "service_s": 0.243, "total_s": 0.4087, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542306.6759176, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 490, "queue_wait_s": 0.2376, "service_s": 0.2436, "total_s": 0.4812, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542306.9197323, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 736, "queue_wait_s": 0.3293, "service_s": 0.2433, "total_s": 0.5726, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542307.163245, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 734, "queue_wait_s": 0.31, "service_s": 0.2433, "total_s": 0.5533, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542307.4075458, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 489, "queue_wait_s": 0.1641, "service_s": 0.244, "total_s": 0.4081, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542307.6522427, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 733, "queue_wait_s": 0.3835, "service_s": 0.2444, "total_s": 0.6279, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542307.896162, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 977, "queue_wait_s": 0.6186, "service_s": 0.2436, "total_s": 0.8622, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542308.1394007, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 732, "queue_wait_s": 0.4124, "service_s": 0.2429, "total_s": 0.6553, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542308.383872, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 976, "queue_wait_s": 0.5118, "service_s": 0.2442, "total_s": 0.7561, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542308.627638, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 732, "queue_wait_s": 0.3964, "service_s": 0.2434, "total_s": 0.6398, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542308.871455, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 976, "queue_wait_s": 0.6396, "service_s": 0.2436, "total_s": 0.8832, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542309.1159043, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 1220, "queue_wait_s": 0.7342, "service_s": 0.2441, "total_s": 0.9783, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542309.3592613, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 976, "queue_wait_s": 0.6585, "service_s": 0.243, "total_s": 0.9015, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542309.6036723, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 1219, "queue_wait_s": 0.8361, "service_s": 0.2441, "total_s": 1.0802, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542309.847759, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 731, "queue_wait_s": 0.3528, "service_s": 0.2438, "total_s": 0.5967, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542310.0934606, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 487, "queue_wait_s": 0.0177, "service_s": 0.2454, "total_s": 0.2632, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542310.3368707, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 731, "queue_wait_s": 0.255, "service_s": 0.243, "total_s": 0.4981, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542310.5811884, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 975, "queue_wait_s": 0.4917, "service_s": 0.2441, "total_s": 0.7358, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542310.8254883, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 975, "queue_wait_s": 0.5402, "service_s": 0.244, "total_s": 0.7842, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542311.0702891, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 488, "queue_wait_s": 0.0835, "service_s": 0.2446, "total_s": 0.3281, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542311.2807598, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 3000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542311.3140044, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 488, "queue_wait_s": 0.2068, "service_s": 0.2434, "total_s": 0.4502, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542311.518199, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 3000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542311.5583155, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 732, "queue_wait_s": 0.3888, "service_s": 0.2441, "total_s": 0.6329, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542311.6472478, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 3000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542311.8021114, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 3000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542311.8028934, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 976, "queue_wait_s": 0.4954, "service_s": 0.2443, "total_s": 0.7397, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542311.8939767, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 3000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542312.0456104, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 976, "queue_wait_s": 0.7322, "service_s": 0.2425, "total_s": 0.9746, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542312.2902083, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 1220, "queue_wait_s": 0.9123, "service_s": 0.2444, "total_s": 1.1566, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542312.5344405, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 1220, "queue_wait_s": 0.8389, "service_s": 0.2439, "total_s": 1.0828, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542312.7789693, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 1220, "queue_wait_s": 0.9494, "service_s": 0.2442, "total_s": 1.1937, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542313.0230684, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 1220, "queue_wait_s": 0.8909, "service_s": 0.2438, "total_s": 1.1347, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542313.2664502, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 975, "queue_wait_s": 0.6743, "service_s": 0.2431, "total_s": 0.9174, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542313.5105155, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 975, "queue_wait_s": 0.7135, "service_s": 0.2438, "total_s": 0.9573, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542313.7542784, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 3000.0, "predicted_ms": 976, "queue_wait_s": 0.6999, "service_s": 0.2435, "total_s": 0.9434, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542339.045753, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": 244, "queue_wait_s": 0.0001, "service_s": 0.2542, "total_s": 0.2543, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542339.2894237, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 246, "queue_wait_s": 0.0001, "service_s": 0.2422, "total_s": 0.2422, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542339.5339837, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 492, "queue_wait_s": 0.2035, "service_s": 0.2443, "total_s": 0.4478, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542339.793976, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 245, "queue_wait_s": 0.0001, "service_s": 0.2379, "total_s": 0.238, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542340.154979, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 244, "queue_wait_s": 0.0001, "service_s": 0.2374, "total_s": 0.2375, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542340.399741, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 487, "queue_wait_s": 0.163, "service_s": 0.2446, "total_s": 0.4076, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542340.6433828, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 485, "queue_wait_s": 0.2368, "service_s": 0.2433, "total_s": 0.4801, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542340.8871763, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 727, "queue_wait_s": 0.3284, "service_s": 0.2436, "total_s": 0.5719, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542341.1316702, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 728, "queue_wait_s": 0.3098, "service_s": 0.2443, "total_s": 0.5541, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542341.3747795, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 486, "queue_wait_s": 0.1654, "service_s": 0.2428, "total_s": 0.4082, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542341.6184278, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 729, "queue_wait_s": 0.3826, "service_s": 0.2434, "total_s": 0.626, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542341.8624976, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 972, "queue_wait_s": 0.6161, "service_s": 0.2438, "total_s": 0.8599, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542342.1062481, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 729, "queue_wait_s": 0.4103, "service_s": 0.2435, "total_s": 0.6538, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542342.3496742, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 973, "queue_wait_s": 0.5101, "service_s": 0.2431, "total_s": 0.7533, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542342.5936627, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 730, "queue_wait_s": 0.394, "service_s": 0.2438, "total_s": 0.6378, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542342.8373334, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 973, "queue_wait_s": 0.6367, "service_s": 0.2433, "total_s": 0.88, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542343.0809395, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 973, "queue_wait_s": 0.7295, "service_s": 0.2433, "total_s": 0.9728, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542343.3262491, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 973, "queue_wait_s": 0.6552, "service_s": 0.2451, "total_s": 0.9003, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542343.5719285, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 1217, "queue_wait_s": 0.8349, "service_s": 0.2453, "total_s": 1.0803, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542343.8165398, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 730, "queue_wait_s": 0.354, "service_s": 0.2443, "total_s": 0.5983, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542344.0602202, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 488, "queue_wait_s": 0.0186, "service_s": 0.2434, "total_s": 0.262, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542344.3035114, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 732, "queue_wait_s": 0.2546, "service_s": 0.243, "total_s": 0.4975, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542344.5477433, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 976, "queue_wait_s": 0.4909, "service_s": 0.244, "total_s": 0.7349, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542344.7924476, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 976, "queue_wait_s": 0.5399, "service_s": 0.2444, "total_s": 0.7843, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542345.0360155, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 488, "queue_wait_s": 0.084, "service_s": 0.2431, "total_s": 0.3272, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542345.246715, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542345.2801917, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 488, "queue_wait_s": 0.207, "service_s": 0.2439, "total_s": 0.451, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542345.4838512, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542345.5251136, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 732, "queue_wait_s": 0.3896, "service_s": 0.2446, "total_s": 0.6342, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542345.6121879, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542345.766813, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542345.768755, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 976, "queue_wait_s": 0.4969, "service_s": 0.2432, "total_s": 0.7401, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542345.8586733, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 5000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542346.0124552, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 975, "queue_wait_s": 0.7324, "service_s": 0.2435, "total_s": 0.9759, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542346.2571256, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 1219, "queue_wait_s": 0.9134, "service_s": 0.2443, "total_s": 1.1577, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542346.501295, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 1219, "queue_wait_s": 0.8405, "service_s": 0.2438, "total_s": 1.0843, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542346.7443397, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 1220, "queue_wait_s": 0.9513, "service_s": 0.2427, "total_s": 1.194, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542346.988391, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 1219, "queue_wait_s": 0.8916, "service_s": 0.2438, "total_s": 1.1354, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542347.2331712, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 975, "queue_wait_s": 0.6745, "service_s": 0.2444, "total_s": 0.919, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542347.4772222, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 975, "queue_wait_s": 0.7155, "service_s": 0.2437, "total_s": 0.9592, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542347.7216208, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 5000.0, "predicted_ms": 974, "queue_wait_s": 0.7015, "service_s": 0.2442, "total_s": 0.9457, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542423.1174426, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 60000.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.2615, "total_s": 0.2616, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542423.3617756, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 261, "queue_wait_s": 0.0001, "service_s": 0.2423, "total_s": 0.2424, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542423.6058183, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 523, "queue_wait_s": 0.2034, "service_s": 0.2437, "total_s": 0.4471, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542423.8656204, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 255, "queue_wait_s": 0.0001, "service_s": 0.2378, "total_s": 0.2379, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
+{"ts": 1793542424.227958, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 251, "queue_wait_s": 0.0001, "service_s": 0.2383, "total_s": 0.2383, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542424.4721334, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 503, "queue_wait_s": 0.165, "service_s": 0.2438, "total_s": 0.4088, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542424.7162778, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 498, "queue_wait_s": 0.2379, "service_s": 0.2438, "total_s": 0.4817, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542424.9604762, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 746, "queue_wait_s": 0.3302, "service_s": 0.2437, "total_s": 0.574, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542425.2055476, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 743, "queue_wait_s": 0.3105, "service_s": 0.2448, "total_s": 0.5553, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542425.4494486, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 493, "queue_wait_s": 0.167, "service_s": 0.2435, "total_s": 0.4105, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542425.692591, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 739, "queue_wait_s": 0.385, "service_s": 0.2428, "total_s": 0.6278, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542425.9369981, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 985, "queue_wait_s": 0.6194, "service_s": 0.2442, "total_s": 0.8635, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542426.181486, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 737, "queue_wait_s": 0.412, "service_s": 0.2442, "total_s": 0.6562, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542426.4254954, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 982, "queue_wait_s": 0.5126, "service_s": 0.2437, "total_s": 0.7563, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542426.66874, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 734, "queue_wait_s": 0.3965, "service_s": 0.2429, "total_s": 0.6394, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542426.9135072, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 979, "queue_wait_s": 0.6383, "service_s": 0.2445, "total_s": 0.8828, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542427.1564143, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1224, "queue_wait_s": 0.7325, "service_s": 0.2425, "total_s": 0.9751, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542427.3998702, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 978, "queue_wait_s": 0.6565, "service_s": 0.2432, "total_s": 0.8997, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542427.6438308, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1223, "queue_wait_s": 0.8343, "service_s": 0.2436, "total_s": 1.0779, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542427.887322, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 732, "queue_wait_s": 0.3513, "service_s": 0.2432, "total_s": 0.5945, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542428.130942, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 487, "queue_wait_s": 0.0154, "service_s": 0.2434, "total_s": 0.2588, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542428.3750374, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 731, "queue_wait_s": 0.2505, "service_s": 0.2439, "total_s": 0.4944, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542428.6191516, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 731, "queue_wait_s": 0.4868, "service_s": 0.2439, "total_s": 0.7307, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542428.862386, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 975, "queue_wait_s": 0.5353, "service_s": 0.2429, "total_s": 0.7782, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542429.106429, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 487, "queue_wait_s": 0.0776, "service_s": 0.2438, "total_s": 0.3214, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542429.3234518, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542429.3503635, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 487, "queue_wait_s": 0.201, "service_s": 0.2436, "total_s": 0.4446, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542429.5624573, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0, "service_s": 0.0, "total_s": 0.0, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542429.594161, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 731, "queue_wait_s": 0.3833, "service_s": 0.2435, "total_s": 0.6268, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542429.6912184, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542429.8382933, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 974, "queue_wait_s": 0.4892, "service_s": 0.2439, "total_s": 0.7331, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542429.931955, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542429.9374912, "mode": "sla", "outcome": "queue_full", "status": 429, "deadline_ms": 1500.0, "predicted_ms": null, "queue_wait_s": 0.0001, "service_s": 0.0, "total_s": 0.0001, "met_deadline": null, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542430.0814252, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 974, "queue_wait_s": 0.7255, "service_s": 0.2428, "total_s": 0.9683, "met_deadline": true, "waiting_at_exit": 4, "active_at_exit": 1}
+{"ts": 1793542430.3291755, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1218, "queue_wait_s": 0.9057, "service_s": 0.2475, "total_s": 1.1532, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542430.5727468, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1218, "queue_wait_s": 0.834, "service_s": 0.2433, "total_s": 1.0773, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542430.8170125, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1218, "queue_wait_s": 0.9445, "service_s": 0.244, "total_s": 1.1885, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542431.060432, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 1218, "queue_wait_s": 0.9712, "service_s": 0.2432, "total_s": 1.2144, "met_deadline": true, "waiting_at_exit": 3, "active_at_exit": 1}
+{"ts": 1793542431.3045082, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 977, "queue_wait_s": 0.6682, "service_s": 0.2438, "total_s": 0.912, "met_deadline": true, "waiting_at_exit": 2, "active_at_exit": 1}
+{"ts": 1793542431.548005, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 976, "queue_wait_s": 0.7086, "service_s": 0.2433, "total_s": 0.9519, "met_deadline": true, "waiting_at_exit": 1, "active_at_exit": 1}
+{"ts": 1793542431.792187, "mode": "sla", "outcome": "ok", "status": 200, "deadline_ms": 1500.0, "predicted_ms": 976, "queue_wait_s": 0.6949, "service_s": 0.2439, "total_s": 0.9388, "met_deadline": true, "waiting_at_exit": 0, "active_at_exit": 1}
