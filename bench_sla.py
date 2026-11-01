@@ -1,12 +1,3 @@
-"""
-Phase 2 experiment runner: fixed prompt, fixed seed, Poisson arrivals.
-
-    python bench_sla.py --label sla --rate 2 --deadline-ms 3000 --n 60
-    python bench_sla.py --label baseline --rate 2 --deadline-ms 3000 --n 60
-
---label is just a tag: start the gateway with ADMISSION=sla or ADMISSION=baseline
-yourself. Appends one row to results/sla_summary.csv.
-"""
 import argparse
 import asyncio
 import csv

@@ -1,0 +1,101 @@
+vLLM Inference Engineering — Practical Checklist
+Goal: Build one portfolio-ready project, Inference Gateway: SLA-Aware LLM Serving, using your RTX 3050 with 6 GB VRAM.
+Model: Qwen/Qwen2.5-0.5B-Instruct
+Approach: Complete one phase at a time. Most gateway logic runs on your CPU, so you don't need to rent GPUs.
+
+Phase 0 — Set up the baseline
+When: Day 1
+[ ] Check GPU memory and software versions.
+[ ] Start vLLM with the small model.
+[ ] Send a test request and confirm it works.
+[ ] Record baseline latency, errors, and GPU memory usage.
+[ ] Save your model configuration and test prompts.
+Start the server:
+vllm serve Qwen/Qwen2.5-0.5B-Instruct \
+  --gpu-memory-utilization 0.75 \
+  --max-model-len 2048
+Keep the workload small initially. If the model fails to load, resolve compatibility or memory issues before proceeding.
+
+Phase 1 — Build the inference gateway
+When: Days 2–3
+[ ] Create a small FastAPI application.
+[ ] Forward requests from the gateway to vLLM's OpenAI-compatible API.
+[ ] Add a maximum number of active requests.
+[ ] Implement a bounded waiting queue.
+[ ] Add request deadlines and timeouts.
+[ ] Reject excess requests with an appropriate HTTP error, such as 429 Too Many Requests.
+[ ] Test the gateway with a few concurrent clients.
+Measure: Queue waiting time, successful requests, rejected requests, and p95 latency.
+
+Phase 2 — SLA-aware admission control
+[ ] Inspect the existing gateway and understand its admission, queueing, and timeout behavior.
+[ ] Define the SLA latency budget, including queue waiting time and inference time.
+[ ] Add client-provided deadlines using an `X-Request-Deadline-Ms` header.
+[ ] Establish a baseline using a consistent workload and existing gateway behavior.
+[ ] Design the admission policy to estimate whether a request can finish within its remaining latency budget.
+[ ] Implement SLA-aware admission control to accept requests likely to meet their deadlines and reject requests predicted to miss them.
+[ ] Test different latency budgets under the same workload.
+[ ] Measure acceptance rate, rejection rate, latency, and deadline success rate.
+[ ] Compare SLA-aware admission against the baseline.
+[ ] Document results, trade-offs, limitations, and observations.
+Phase completion criteria: Demonstrate through repeatable experiments how latency budgets influence admission decisions and whether the policy improves deadline compliance.
+
+Phase 3 — Workload-aware scheduling
+When: Days 4–5
+[ ] Create short, medium, and long request workloads.
+[ ] Establish a FIFO scheduling baseline.
+[ ] Implement separate queues for different request classes.
+[ ] Add a fair scheduling policy to prevent starvation.
+[ ] Compare both strategies using the same workload.
+Measure: Per-class p95 latency, throughput, and fairness.
+Keep scheduling in the gateway initially; don't modify vLLM's internal scheduler.
+
+Phase 4 — Reliability testing
+When: Day 6
+[ ] Simulate sudden traffic bursts.
+[ ] Test client disconnections.
+[ ] Test request timeouts.
+[ ] Simulate vLLM becoming unavailable.
+[ ] Add health checks and controlled retries.
+[ ] Verify that retries don't create unnecessary duplicate work.
+Measure: Error rate, recovery time, timeout rate, and successful completion rate.
+
+Phase 5 — Observability dashboard
+When: Days 7–8
+[ ] Collect metrics from the gateway.
+[ ] Collect available vLLM metrics.
+[ ] Track running and waiting requests.
+[ ] Track queue time, request latency, and error counts.
+[ ] Monitor KV-cache utilization and GPU memory.
+[ ] Build a dashboard using a lightweight monitoring stack.
+Measure: Whether you can identify the cause of a latency spike or overload event from your metrics.
+
+Phase 6 — Adaptive admission control
+When: Days 9–10
+[ ] Implement a fixed request-admission limit.
+[ ] Establish a baseline under increasing traffic.
+[ ] Implement an adaptive limit based on queue depth and latency.
+[ ] Compare both approaches under identical workloads.
+[ ] Check that the adaptive controller doesn't oscillate or starve requests.
+Measure: p95 latency, throughput, rejected requests, and queue stability.
+
+Phase 7 — Final evaluation and portfolio
+When: Days 11–12
+[ ] Repeat the main experiments.
+[ ] Save raw benchmark results.
+[ ] Create comparison tables and graphs.
+[ ] Document architecture and design decisions.
+[ ] Explain the trade-offs and limitations.
+[ ] Publish the code and results in your portfolio.
+Rules to follow throughout
+Change one variable at a time.
+Keep prompts and output limits consistent when comparing configurations.
+Warm up the model before measuring performance.
+Repeat experiments rather than relying on one run.
+Monitor GPU memory and start with low concurrency.
+Record software versions and configurations.
+Don't claim an optimization worked unless your measurements support it.
+Your immediate next step
+
+Today, complete Phase 1 only. Confirm that vLLM serves the model successfully, send a request, and record your baseline. Then build the gateway around that working setup.
+The objective is to demonstrate that you can design a reliable serving system—not merely run a model or collect token-throughput numbers.
