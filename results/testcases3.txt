@@ -1,0 +1,266 @@
+cp results/phase3_summary.csv results/phase3_summary_fifo.csv
+
+TEST 1 — FIFO baseline (policy = fifo)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== health ==="; curl -s http://localhost:9000/health; echo
+echo "=== metrics (idle) ==="; curl -s http://localhost:9000/metrics; echo
+echo "=== FIFO run rate=1.5 n=60 ==="
+python bench3.py --policy fifo --rate 1.5 --n 60 --seed 1
+echo "=== metrics (after fifo) ==="; curl -s http://localhost:9000/metrics; echo
+=== health ===
+{"gateway":"up","vllm":"up"}
+=== metrics (idle) ===
+{"received":0,"completed":0,"rejected":0,"upstream_timeout":0,"upstream_error":0,"policy":"fifo","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":0,"completed":0,"rejected":0,"ema_service_ms":null},"medium":{"received":0,"completed":0,"rejected":0,"ema_service_ms":null},"long":{"received":0,"completed":0,"rejected":0,"ema_service_ms":null}},"max_active":1,"max_queue":32}
+=== FIFO run rate=1.5 n=60 ===
+idle service time (ms): {'short': 329, 'medium': 1614, 'long': 6040}
+capacity ~ 0.78 req/s; offered 1.5 req/s (load 1.93x)
+
+policy=fifo
+class     sent   ok  rej   p50 ms   p95 ms  slowdown
+short       41   41    0   5324.0  13165.0     19.56
+medium      16   16    0   4887.0  14522.0      4.35
+long         3    3    0   9358.0  13280.0      1.67
+throughput 1.044 req/s, 98.7 tok/s | Jain(slowdown) 0.539 | Jain(success) 1.0
+=== metrics (after fifo) ===
+{"received":67,"completed":67,"rejected":0,"upstream_timeout":0,"upstream_error":0,"policy":"fifo","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":44,"completed":44,"rejected":0,"ema_service_ms":329},"medium":{"received":18,"completed":18,"rejected":0,"ema_service_ms":1614},"long":{"received":5,"completed":5,"rejected":0,"ema_service_ms":6038}},"max_active":1,"max_queue":32}
+
+TEST 2 — Priority (policy = priority)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== priority run rate=1.5 n=60 ==="
+python bench3.py --policy priority --rate 1.5 --n 60 --seed 1
+echo "=== metrics (after priority) ==="; curl -s http://localhost:9000/metrics; echo
+=== priority run rate=1.5 n=60 ===
+idle service time (ms): {'short': 329, 'medium': 1613, 'long': 6040}
+capacity ~ 0.78 req/s; offered 1.5 req/s (load 1.93x)
+
+policy=priority
+class     sent   ok  rej   p50 ms   p95 ms  slowdown
+short       41   41    0   1459.0   5724.0      6.67
+medium      16   16    0   6195.0   8721.0       3.5
+long         3    3    0  10667.0  26571.0      2.51
+throughput 1.044 req/s, 98.7 tok/s | Jain(slowdown) 0.85 | Jain(success) 1.0
+=== metrics (after priority) ===
+{"received":67,"completed":67,"rejected":0,"upstream_timeout":0,"upstream_error":0,"policy":"priority","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":44,"completed":44,"rejected":0,"ema_service_ms":329},"medium":{"received":18,"completed":18,"rejected":0,"ema_service_ms":1613},"long":{"received":5,"completed":5,"rejected":0,"ema_service_ms":6039}},"max_active":1,"max_queue":32}
+
+TEST 3 — WRR (policy = wrr, weights 4,2,1)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== wrr run rate=1.5 n=60 ==="
+python bench3.py --policy wrr --rate 1.5 --n 60 --seed 1
+echo "=== metrics (after wrr) ==="; curl -s http://localhost:9000/metrics; echo
+=== wrr run rate=1.5 n=60 ===
+idle service time (ms): {'short': 329, 'medium': 1615, 'long': 6040}
+capacity ~ 0.78 req/s; offered 1.5 req/s (load 1.93x)
+
+policy=wrr
+class     sent   ok  rej   p50 ms   p95 ms  slowdown
+short       41   41    0   6382.0  17217.0      26.6
+medium      16   16    0   3635.0  13211.0      3.32
+long         3    3    0   8374.0  16179.0      1.77
+throughput 1.044 req/s, 98.7 tok/s | Jain(slowdown) 0.464 | Jain(success) 1.0
+=== metrics (after wrr) ===
+{"received":67,"completed":67,"rejected":0,"upstream_timeout":0,"upstream_error":0,"policy":"wrr","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":44,"completed":44,"rejected":0,"ema_service_ms":329},"medium":{"received":18,"completed":18,"rejected":0,"ema_service_ms":1613},"long":{"received":5,"completed":5,"rejected":0,"ema_service_ms":6039}},"max_active":1,"max_queue":32}
+
+TEST 4 — Overload stress, WRR (rate=4.0, hits queue_full)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== wrr OVERLOAD rate=4.0 n=100 ==="
+python bench3.py --policy wrr --rate 4.0 --n 100 --seed 2
+echo "=== metrics (after overload) ==="; curl -s http://localhost:9000/metrics; echo
+=== wrr OVERLOAD rate=4.0 n=100 ===
+idle service time (ms): {'short': 329, 'medium': 1614, 'long': 6041}
+capacity ~ 0.78 req/s; offered 4.0 req/s (load 5.14x)
+
+policy=wrr
+class     sent   ok  rej   p50 ms   p95 ms  slowdown
+short       63   28   35  33025.0  50535.0     96.01
+medium      24   11   13  25569.0  43733.0     16.24
+long        13    8    5  43358.0  64308.0      6.18
+throughput 0.618 req/s, 98.1 tok/s | Jain(slowdown) 0.491 | Jain(success) 0.977
+=== metrics (after overload) ===
+{"received":174,"completed":121,"rejected":53,"upstream_timeout":0,"upstream_error":0,"policy":"wrr","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":110,"completed":75,"rejected":35,"ema_service_ms":329},"medium":{"received":44,"completed":31,"rejected":13,"ema_service_ms":1614},"long":{"received":20,"completed":15,"rejected":5,"ema_service_ms":6040}},"max_active":1,"max_queue":32}
+
+TEST 5 — Low load, WRR (rate=0.5, near-zero queue)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== wrr LOW load rate=0.5 n=40 ==="
+python bench3.py --policy wrr --rate 0.5 --n 40 --seed 3
+echo "=== metrics (after low load) ==="; curl -s http://localhost:9000/metrics; echo
+=== wrr LOW load rate=0.5 n=40 ===
+idle service time (ms): {'short': 329, 'medium': 1614, 'long': 6041}
+capacity ~ 0.78 req/s; offered 0.5 req/s (load 0.64x)
+
+policy=wrr
+class     sent   ok  rej   p50 ms   p95 ms  slowdown
+short       25   25    0    333.0   5132.0      4.16
+medium       8    8    0   1917.0   8321.0      2.42
+long         7    7    0   9792.0  12483.0      1.53
+throughput 0.413 req/s, 64.9 tok/s | Jain(slowdown) 0.86 | Jain(success) 1.0
+=== metrics (after low load) ===
+{"received":221,"completed":168,"rejected":53,"upstream_timeout":0,"upstream_error":0,"policy":"wrr","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":138,"completed":103,"rejected":35,"ema_service_ms":329},"medium":{"received":54,"completed":41,"rejected":13,"ema_service_ms":1615},"long":{"received":29,"completed":24,"rejected":5,"ema_service_ms":6041}},"max_active":1,"max_queue":32}
+
+TEST 6 — Fairness / starvation check, priority policy
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== priority OVERLOAD rate=4.0 n=100 ==="
+python bench3.py --policy priority --rate 4.0 --n 100 --seed 2
+echo "=== metrics (after priority overload) ==="; curl -s http://localhost:9000/metrics; echo
+=== priority OVERLOAD rate=4.0 n=100 ===
+idle service time (ms): {'short': 330, 'medium': 1614, 'long': 6039}
+capacity ~ 0.78 req/s; offered 4.0 req/s (load 5.15x)
+
+policy=priority
+class     sent   ok  rej   p50 ms   p95 ms  slowdown
+short       63   50   13   2509.0   6326.0      9.41
+medium      24   23    1  28557.0  36505.0     18.67
+long        13    6    7  63992.0  65574.0      9.07
+throughput 0.873 req/s, 98.1 tok/s | Jain(slowdown) 0.886 | Jain(success) 0.927
+=== metrics (after priority overload) ===
+{"received":107,"completed":86,"rejected":21,"upstream_timeout":0,"upstream_error":0,"policy":"priority","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":66,"completed":53,"rejected":13,"ema_service_ms":329},"medium":{"received":26,"completed":25,"rejected":1,"ema_service_ms":1614},"long":{"received":15,"completed":8,"rejected":7,"ema_service_ms":6039}},"max_active":1,"max_queue":32}
+
+TEST 7 — Classification correctness (header & inferred)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== inferred short (max_tokens=32) ==="
+curl -s -o /dev/null -w "%{http_code} class=%header{x-request-class}\n" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":32}' \
+  http://localhost:9000/v1/chat/completions
+echo "=== inferred medium (max_tokens=160) ==="
+curl -s -o /dev/null -w "%{http_code} class=%header{x-request-class}\n" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":160}' \
+  http://localhost:9000/v1/chat/completions
+echo "=== inferred long (max_tokens=600) ==="
+curl -s -o /dev/null -w "%{http_code} class=%header{x-request-class}\n" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":600}' \
+  http://localhost:9000/v1/chat/completions
+echo "=== header override (X-Request-Class: long with max_tokens=32) ==="
+curl -s -o /dev/null -w "%{http_code} class=%header{x-request-class}\n" \
+  -H "Content-Type: application/json" -H "X-Request-Class: long" \
+  -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":32}' \
+  http://localhost:9000/v1/chat/completions
+echo "=== boundary: max_tokens=64 (SHORT_MAX=64 -> short) ==="
+curl -s -o /dev/null -w "%{http_code} class=%header{x-request-class}\n" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":64}' \
+  http://localhost:9000/v1/chat/completions
+echo "=== streaming must be 400 ==="
+curl -s -o /dev/null -w "%{http_code}\n" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":32,"stream":true}' \
+  http://localhost:9000/v1/chat/completions
+echo "=== invalid JSON must be 400 ==="
+curl -s -o /dev/null -w "%{http_code}\n" \
+  -H "Content-Type: application/json" -d 'not-json' \
+  http://localhost:9000/v1/chat/completions
+=== inferred short (max_tokens=32) ===
+200 class=short
+=== inferred medium (max_tokens=160) ===
+200 class=medium
+=== inferred long (max_tokens=600) ===
+200 class=long
+=== header override (X-Request-Class: long with max_tokens=32) ===
+200 class=long
+=== boundary: max_tokens=64 (SHORT_MAX=64 -> short) ===
+200 class=short
+=== streaming must be 400 ===
+400
+=== invalid JSON must be 400 ===
+400
+
+TEST 8 — Queue-full rejection path (MAX_QUEUE=1)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== 6 concurrent, MAX_QUEUE=1, expect mix of 200 and 429 ==="
+for i in 1 2 3 4 5 6; do
+  curl -s -o /dev/null -w "req$i -> %{http_code}\n" \
+    -H "Content-Type: application/json" \
+    -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":32}' \
+    http://localhost:9000/v1/chat/completions &
+done
+wait
+echo "=== metrics (expect rejected>0) ==="; curl -s http://localhost:9000/metrics; echo
+=== 6 concurrent, MAX_QUEUE=1, expect mix of 200 and 429 ===
+[1] 153904
+[2] 153905
+[3] 153906
+[4] 153907
+[5] 153908
+[6] 153909
+req6 -> 429
+req4 -> 429
+req2 -> 429
+req1 -> 429
+[1]   Done                       curl -s -o /dev/null -w "req$i -> %{http_code}\n" -H "Content-Type: application/json" -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":32}' http://localhost:9000/v1/chat/completions
+req5 -> 200
+req3 -> 200
+[3]   Done                       curl -s -o /dev/null -w "req$i -> %{http_code}\n" -H "Content-Type: application/json" -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":32}' http://localhost:9000/v1/chat/completions
+=== metrics (expect rejected>0) ===
+{"received":6,"completed":2,"rejected":4,"upstream_timeout":0,"upstream_error":0,"policy":"fifo","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":6,"completed":2,"rejected":4,"ema_service_ms":354},"medium":{"received":0,"completed":0,"rejected":0,"ema_service_ms":null},"long":{"received":0,"completed":0,"rejected":0,"ema_service_ms":null}},"max_active":1,"max_queue":1}
+
+TEST 9 — Queue deadline rejection (QUEUE_DEADLINE=0.001)
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== deadline path: 4 concurrent, QUEUE_DEADLINE=0.001 (expect queue_deadline 429s) ==="
+for i in 1 2 3 4; do
+  curl -s -w "\nreq$i -> %{http_code}\n" \
+    -H "Content-Type: application/json" \
+    -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":160}' \
+    http://localhost:9000/v1/chat/completions &
+done
+wait
+echo "=== metrics (expect rejected>0, reason=queue_deadline in earlier curl bodies) ==="; curl -s http://localhost:9000/metrics; echo
+=== deadline path: 4 concurrent, QUEUE_DEADLINE=0.001 (expect queue_deadline 429s) ===
+[1] 154736
+[2] 154737
+[3] 154738
+[4] 154739
+{"error":"server overloaded","reason":"queue_deadline","class":"medium"}
+req3 -> 429
+{"error":"server overloaded","reason":"queue_deadline","class":"medium"}
+req1 -> 429
+{"error":"server overloaded","reason":"queue_deadline","class":"medium"}
+req2 -> 429
+[1]   Done                       curl -s -w "\nreq$i -> %{http_code}\n" -H "Content-Type: application/json" -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":160}' http://localhost:9000/v1/chat/completions
+{"id":"chatcmpl-aafc3cb4a7ec8382","object":"chat.completion","created":1793627962,"model":"Qwen/Qwen2.5-0.5B-Instruct","choices":[{"index":0,"message":{"role":"assistant","content":"Hello! How can I assist you today? If you have any questions or need help with anything specific, feel free to ask. I'm here to provide information and answer your queries in the most appropriate manner.","refusal":null,"annotations":null,"audio":null,"function_call":null,"reasoning":null},"logprobs":null,"finish_reason":"stop","stop_reason":null,"token_ids":null,"routed_experts":null}],"service_tier":null,"system_fingerprint":"vllm-0.32.0-738be4af","usage":{"prompt_tokens":30,"total_tokens":73,"completion_tokens":43,"prompt_tokens_details":null,"completion_tokens_details":null},"prompt_logprobs":null,"prompt_token_ids":null,"prompt_text":null,"kv_transfer_params":null,"ec_transfer_params":null,"metrics":null}
+req4 -> 200
+[4]+  Done                       curl -s -w "\nreq$i -> %{http_code}\n" -H "Content-Type: application/json" -d '{"model":"Qwen/Qwen2.5-0.5B-Instruct","messages":[{"role":"user","content":"hi"}],"max_tokens":160}' http://localhost:9000/v1/chat/completions
+=== metrics (expect rejected>0, reason=queue_deadline in earlier curl bodies) ===
+{"received":4,"completed":1,"rejected":3,"upstream_timeout":0,"upstream_error":0,"policy":"fifo","active_now":0,"waiting_now":0,"waiting_by_class":{"short":0,"medium":0,"long":0},"by_class":{"short":{"received":0,"completed":0,"rejected":0,"ema_service_ms":null},"medium":{"received":4,"completed":1,"rejected":3,"ema_service_ms":470},"long":{"received":0,"completed":0,"rejected":0,"ema_service_ms":null}},"max_active":1,"max_queue":32}
+
+FINAL — Dump all results for me
+rdx@system ~/Projects/inference-gateway  ● main $ echo "=== results/phase3_summary.csv ==="; cat results/phase3_summary.csv
+echo "=== request log line count ==="; wc -l results/phase3_requests.jsonl
+echo "=== per-policy request counts ==="; \
+  awk -F'"policy": "' '{print $2}' results/phase3_requests.jsonl | cut -d'"' -f1 | sort | uniq -c
+echo "=== outcome breakdown ==="; \
+  grep -o '"outcome": "[^"]*"' results/phase3_requests.jsonl | sort | uniq -c
+echo "=== sample 5 request log lines ==="; head -5 results/phase3_requests.jsonl
+=== results/phase3_summary.csv ===
+policy,rate,seed,n,class,sent,ok,rejected,p50_ms,p95_ms,mean_slowdown,throughput_rps,throughput_tps,jain_slowdown,jain_success
+fifo,1.5,1,60,short,41,41,0,5324.0,13165.0,19.56,,,,
+fifo,1.5,1,60,medium,16,16,0,4887.0,14522.0,4.35,,,,
+fifo,1.5,1,60,long,3,3,0,9358.0,13280.0,1.67,,,,
+fifo,1.5,1,60,ALL,60,60,0,,,,1.044,98.7,0.539,1.0
+priority,1.5,1,60,short,41,41,0,1459.0,5724.0,6.67,,,,
+priority,1.5,1,60,medium,16,16,0,6195.0,8721.0,3.5,,,,
+priority,1.5,1,60,long,3,3,0,10667.0,26571.0,2.51,,,,
+priority,1.5,1,60,ALL,60,60,0,,,,1.044,98.7,0.85,1.0
+wrr,1.5,1,60,short,41,41,0,6382.0,17217.0,26.6,,,,
+wrr,1.5,1,60,medium,16,16,0,3635.0,13211.0,3.32,,,,
+wrr,1.5,1,60,long,3,3,0,8374.0,16179.0,1.77,,,,
+wrr,1.5,1,60,ALL,60,60,0,,,,1.044,98.7,0.464,1.0
+wrr,4.0,2,100,short,63,28,35,33025.0,50535.0,96.01,,,,
+wrr,4.0,2,100,medium,24,11,13,25569.0,43733.0,16.24,,,,
+wrr,4.0,2,100,long,13,8,5,43358.0,64308.0,6.18,,,,
+wrr,4.0,2,100,ALL,100,47,53,,,,0.618,98.1,0.491,0.977
+wrr,0.5,3,40,short,25,25,0,333.0,5132.0,4.16,,,,
+wrr,0.5,3,40,medium,8,8,0,1917.0,8321.0,2.42,,,,
+wrr,0.5,3,40,long,7,7,0,9792.0,12483.0,1.53,,,,
+wrr,0.5,3,40,ALL,40,40,0,,,,0.413,64.9,0.86,1.0
+priority,4.0,2,100,short,63,50,13,2509.0,6326.0,9.41,,,,
+priority,4.0,2,100,medium,24,23,1,28557.0,36505.0,18.67,,,,
+priority,4.0,2,100,long,13,6,7,63992.0,65574.0,9.07,,,,
+priority,4.0,2,100,ALL,100,79,21,,,,0.873,98.1,0.886,0.927
+=== request log line count ===
+481 results/phase3_requests.jsonl
+=== per-policy request counts ===
+     81 fifo
+    174 priority
+    226 wrr
+=== outcome breakdown ===
+    397 "outcome": "ok"
+     12 "outcome": "queue_deadline"
+     72 "outcome": "queue_full"
+=== sample 5 request log lines ===
+{"ts": 1793626399.3280976, "policy": "fifo", "cls": "medium", "outcome": "queue_deadline", "status": 429, "queue_wait_s": 0.0003, "service_s": 0.0, "total_s": 0.0003}
+{"ts": 1793626399.3284254, "policy": "fifo", "cls": "medium", "outcome": "queue_deadline", "status": 429, "queue_wait_s": 0.0005, "service_s": 0.0, "total_s": 0.0005}
+{"ts": 1793626399.329009, "policy": "fifo", "cls": "medium", "outcome": "queue_deadline", "status": 429, "queue_wait_s": 0.0009, "service_s": 0.0, "total_s": 0.0009}
+{"ts": 1793626399.667238, "policy": "fifo", "cls": "medium", "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.3467, "total_s": 0.3467}
+{"ts": 1793626991.9620864, "policy": "fifo", "cls": "short", "outcome": "ok", "status": 200, "queue_wait_s": 0.0001, "service_s": 0.334, "total_s": 0.3342}

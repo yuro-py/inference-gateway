@@ -1,49 +1,62 @@
 # inference-gateway
+A small admission-control gateway for any OpenAI-compatible LLM server (vLLM, llama.cpp server, etc.). It keeps the backend responsive under load: caps concurrency, queues a bounded number of requests, enforces deadlines, and rejects overflow with `429`.
 
-A small admission-control gateway for any OpenAI-compatible LLM server (vLLM, llama.cpp server, etc.). It keeps the backend responsive under load: it caps concurrent requests, queues a bounded number, enforces deadlines, and rejects the overflow fast with `429`.
-
-**Phase 2 Update:** Added SLA-aware admission control. The gateway can now predict request completion times based on an EMA of upstream service time and reject requests early if they are predicted to miss their client-provided latency budgets.
+**Phase 3 Update:** Added workload-aware scheduling. Requests are classified as short / medium / long, and the gateway can schedule across separate per-class queues using FIFO, strict priority, or weighted round-robin (WRR). This prevents long requests from starving while improving fairness and per-class latency under mixed workloads.
 
 ## Features
-- Active-request limit plus a bounded waiting queue.
-- **SLA-aware admission:** Predicts if a request can finish within its `X-Request-Deadline-Ms` budget.
-- **Baseline mode:** Original Phase 1 behavior (FIFO queue, no SLA prediction).
-- Queue deadline and upstream timeout (`429` / `504` / `502` responses).
-- `/health` and `/metrics` endpoints.
+- Active-request limit plus a bounded shared waiting queue.
+- Request classification by `max_tokens` or `X-Request-Class` header.
+- Three scheduling policies:
+  - `fifo` — oldest arrival first (baseline).
+  - `priority` — shortest class first (can starve long requests).
+  - `wrr` — weighted round-robin across classes (starvation-free).
+- Queue deadline and upstream timeout (`429` / `504` / `502`).
+- `/health` and `/metrics` endpoints with per-class counters.
 - Per-request JSONL log for benchmarking.
 
 ## Config (env vars)
-- `UPSTREAM_URL` (default `http://localhost:8000`)
+- `VLLM_URL` (default `http://localhost:8000`)
 - `MAX_ACTIVE` (1)
-- `MAX_QUEUE` (4)
-- `QUEUE_DEADLINE` (5s)
-- `UPSTREAM_TIMEOUT` (30s)
-- `ADMISSION` (`sla` or `baseline`, default `sla`)
-- `SAFETY` (default `1.0`; >1 = more cautious SLA predictions)
-- `DEFAULT_DEADLINE_MS` (10000)
+- `MAX_QUEUE` (32)
+- `QUEUE_DEADLINE` (60s)
+- `UPSTREAM_TIMEOUT` (120s)
+- `SCHED` (`fifo`, `priority`, or `wrr`, default `wrr`)
+- `WEIGHTS` (default `4,2,1` for short,medium,long)
+- `SHORT_MAX` (64), `MEDIUM_MAX` (256) — `max_tokens` thresholds
+- `LOG_PATH` (default `results/phase3_requests.jsonl`)
 
 ## Run
 
-### Install required packages
+### Install
 ```bash
+# 1 :-
 pip install -r requirements.txt
 
-## Terminal 1: vLLM from your baseline at port 8000
-vllm serve {model_name} --gpu-memory-utilization 0.7 --max-model-len 1024 --max-num-seqs 1
+# 2 : Terminal 1: vLLM at port 8000
+vllm serve Qwen/Qwen2.5-0.5B-Instruct --gpu-memory-utilization 0.65 --max-model-len 1024 --max-num-seqs 1
 
-## Terminal 2: the gateway at port 9000
-SLA-aware admission mode:-
-ADMISSION=sla uvicorn gateway_sla:app --port 9000
 
-Baseline queue-full mode:-
-ADMISSION=baseline uvicorn gateway_sla:app --port 9000
+# 3 : Terminal 2: gateway at port 9000
+# for FIFO baseline
+SCHED=fifo uvicorn gateway3:app --port 9000
 
-##Terminal 3: the benchmark
+# for Priority (shortest class first)
+SCHED=priority uvicorn gateway3:app --port 9000
 
-### Run SLA benchmark
-python bench_sla.py --label sla --rate 4 --deadline-ms 1500 --n 40
+# for Weighted round-robin (default)
+SCHED=wrr WEIGHTS=4,2,1 uvicorn gateway3:app --port 9000
 
-### Run Baseline benchmark
-python bench_sla.py --label baseline --rate 4 --deadline-ms 1500 --n 40
 
-(Results are appended to results/sla_summary.csv)
+# 4 : Terminal 3: benchmark
+# FIFO
+python bench3.py --policy fifo --rate 1.5 --n 60 --seed 1
+
+# Priority
+python bench3.py --policy priority --rate 1.5 --n 60 --seed 1
+
+# WRR
+python bench3.py --policy wrr --rate 1.5 --n 60 --seed 1
+``
+
+## Results
+See results/phase3_summary.csv for FIFO vs priority vs WRR under identical workloads.
